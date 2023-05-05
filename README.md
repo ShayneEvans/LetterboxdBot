@@ -28,4 +28,4 @@ Movies should be entered as accurate as possible, spelling mistakes will not be 
 - Add Cogs
 
 # Invite The Bot to Your Discord Server
-<a href="https://discord.com/oauth2/authorize?client_id=1100138412238962810&permissions=2147510272&scope=bot" target="_blank"><img src="https://img.shields.io/badge/"Invite Bot"-#00FF00?style=flat-square&logo=invite&logoColor=white"></a>
+https://discord.com/oauth2/authorize?client_id=1100138412238962810&permissions=2147510272&scope=bot
