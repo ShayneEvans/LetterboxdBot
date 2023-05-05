@@ -1,10 +1,8 @@
 # LetterboxdBot Discord Bot
-Version 1.0
+Invite to your Discord Server: https://discord.com/oauth2/authorize?client_id=1100138412238962810&permissions=2147510272&scope=bot
 
 # Example
-
 https://user-images.githubusercontent.com/70344759/236554071-3f740134-4123-48d3-9305-21dd2567fd8c.mov
-
 
 # Description
 Used to retrieve information about movies on https://letterboxd.com/ including:  
@@ -26,6 +24,3 @@ Movies should be entered as accurate as possible, spelling mistakes will not be 
 - Make code more modular
 - Unit testing
 - Add Cogs
-
-# Invite The Bot to Your Discord Server
-https://discord.com/oauth2/authorize?client_id=1100138412238962810&permissions=2147510272&scope=bot
