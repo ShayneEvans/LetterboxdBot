@@ -1,6 +1,11 @@
 # LetterboxdBot Discord Bot
 Version 1.0
 
+# Example
+
+https://user-images.githubusercontent.com/70344759/236554071-3f740134-4123-48d3-9305-21dd2567fd8c.mov
+
+
 # Description
 Used to retrieve information about movies on https://letterboxd.com/ including: movie poster, title, director, release year, runtime, description, and review count. Enter movies as accurate as possible, spelling mistakes will not be accounted for/will cause your search to fail.
 
