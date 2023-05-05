@@ -1,5 +1,5 @@
 # LetterboxdBot Discord Bot
-Invite to your Discord Server: https://discord.com/oauth2/authorize?client_id=1100138412238962810&permissions=2147510272&scope=bot
+[Invite to your Discord Server](https://discord.com/oauth2/authorize?client_id=1100138412238962810&permissions=2147510272&scope=bot)
 
 # Example
 https://user-images.githubusercontent.com/70344759/236554071-3f740134-4123-48d3-9305-21dd2567fd8c.mov
