@@ -5,6 +5,14 @@ from discord import app_commands
 import os
 import scraper_functions
 
+#Proper replacements made to create search term on given movie string
+def create_search_term(movie_title):
+    search_term = movie_title.replace(" ", "+")
+    search_term = search_term.replace(":", "%3A")
+    search_term = search_term.replace("/", "-")
+
+    return search_term
+    
 class PaginationView(discord.ui.View):
     current_page : int = 0
     movie_embeds = {}
@@ -116,8 +124,7 @@ def run_discord_bot():
     @bot.tree.command(name="search_movie", description="Searches for a movie on letterboxd")
     @app_commands.describe(movie_title="movie that will be searched on letterboxd")
     async def search_movie(interaction: discord.Interaction, movie_title: str):
-        search_term = movie_title.replace(" ", "+")
-        search_term = search_term.replace(":", "%3A")
+        search_term = create_search_term(movie_title)
         search_term_links = scraper_functions.get_search_term_urls(search_term)
         pagination_view = PaginationView()
         ctx = await bot.get_context(interaction)
