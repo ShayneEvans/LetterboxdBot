@@ -26,7 +26,7 @@ def get_search_term_urls(search_term):
     for movie in movie_list:
         find_movie_page_url = re.search(r'data-film-slug="(.*)\" data-hide-tooltip=\"true\"', str(movie))
         movie_page_url = find_movie_page_url.group(1)
-        movie_link_list.append("https://letterboxd.com" + movie_page_url)
+        movie_link_list.append("https://letterboxd.com/film/" + movie_page_url)
 
     return movie_link_list
 
