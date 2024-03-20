@@ -1,0 +1,1488 @@
+
+
+<!DOCTYPE html>
+
+<html id="html" lang="en" class="no-mobile no-js">
+<head>
+	<meta charset="UTF-8" />
+	
+	
+			
+		
+	<meta name="viewport" content="width=1024" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="description" content="Tells three separate stories with the cast playing different characters in each." />
+	<meta property="og:type" content="video.movie" />
+	
+	<meta property="og:url" content="https://letterboxd.com/film/kinds-of-kindness/" />
+	<meta property="og:title" content="Kinds of Kindness (2024)" />
+	<meta property="og:description" content="Tells three separate stories with the cast playing different characters in each." />
+	<meta property="og:image" content="https://a.ltrbxd.com/resized/film-poster/9/2/8/2/6/1/928261-kinds-of-kindness-0-230-0-345-crop.jpg?v=59ffdd11e3" /><meta property="og:image:width" content="230" /><meta property="og:image:height" content="345" />
+	
+	<meta property="fb:app_id" content="173683136069040" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@letterboxd"/><meta name="twitter:url" content="https://letterboxd.com/film/kinds-of-kindness/" />
+	<meta name="twitter:title" content="Kinds of Kindness (2024)" />
+	<meta name="twitter:description" content="Tells three separate stories with the cast playing different characters in each." />
+	<meta name="twitter:label1" content="Directed by" /><meta name="twitter:data1" content="Yorgos Lanthimos" />
+	<meta name="twitter:image" content="https://a.ltrbxd.com/resized/film-poster/9/2/8/2/6/1/928261-kinds-of-kindness-0-230-0-345-crop.jpg?v=59ffdd11e3" />
+	
+	<meta name="application-name" content="Letterboxd" />
+	<meta name="theme-color" content="#14181C" />
+	<meta name="msapplication-TileColor" content="#445566" />
+	<meta name="apple-itunes-app" content="app-id=1054271011, affiliate-data=11l5KW, app-argument=https://letterboxd.com/film/kinds-of-kindness/" />
+	<meta name="mobile-web-app-capable" content="yes" />
+
+	<title>&lrm;Kinds of Kindness (2024) directed by Yorgos Lanthimos • Film + cast &bull; Letterboxd</title>
+	
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		window.gtag = window.gtag || function () {
+			dataLayer.push(arguments);
+		};
+		function ga() {}
+	</script>
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-D3ECBB4D7L"></script>
+
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		window.gtag = window.gtag || function () {
+			dataLayer.push(arguments);
+		};
+		gtag('js', new Date());
+	
+		var analytic_params = {};
+		
+		
+		analytic_params['user_id'] = '9765b27715b66e5944c4d3ec61dfb5e58e424b2f'; analytic_params['user_type'] = 'Member'; analytic_params['member_type'] = 'FREE';
+		analytic_params['template'] = '/object/film';
+		
+		
+				analytic_params['film_id'] = 'CWPw';
+			
+
+		if (analytic_params.member_type) {
+			gtag('set', 'user_properties', { 
+				member_type: analytic_params.member_type,
+			});
+			delete analytic_params.member_type;
+		}
+		var config = {
+			...analytic_params,
+			'cookie_domain': 'letterboxd.com', 
+			'optimize_id': 'GTM-TB8HSDN', 
+		};
+		gtag('config', 'G-D3ECBB4D7L', config);
+	</script>
+
+
+	<script>
+		
+		((r, n) => {
+			r.dataset.useragent = n.userAgent
+			r.dataset.platform = n.platform
+		})(document.documentElement, navigator)
+
+		var isMobile = false,
+			isMobileOptimised = true,
+			renderMobile = false,
+			useStaticFonts = false,
+			disableFrameProtection = false,
+			baseURL = "",
+			successMessages = [],
+			errorMessages = [],
+			stickyMessages = [],
+			globals = {
+			autoAddFilm: false			
+				, spinners: {
+					ajax_242d35: 'https://s.ltrbxd.com/static/img/spinner-dark-2x.fda24f88.gif',
+					spinner_12_2C3641: 'https://s.ltrbxd.com/static/img/spinner-dark-2x.fda24f88.gif',
+					spinner_14_20272f: 'https://s.ltrbxd.com/static/img/spinner-dark-2x.fda24f88.gif',
+					spinner_16_161B21: 'https://s.ltrbxd.com/static/img/spinner-dark-2x.fda24f88.gif'
+				}
+			},
+			supermodelCSRF = "",
+			gRecaptchaKey = '6Le3mMIUAAAAAEXbwZ7M1R5jEv0V5xbvj7bgXq2g',
+			geolocation = {
+				country: ""
+			},
+			person = {
+				username: ""
+				, loggedIn: false
+				
+				, showAds: true
+				, role: "guest"
+				, hasExtendedServiceFilters: false
+				, canBulkAddToLists: false
+				, canFilterOwned: false
+				, hasHqRole: false
+				, canHaveHqDashboard: false
+				, hasMemberStatistics: false
+				, blockedMembers: []
+				, showAdultContent: false
+				, validated: null
+				, trusted: false
+				, hasBlocked : function(member) { for (var i = 0; i !== person.blockedMembers.length; i++) {if (person.blockedMembers[i] === member) return true;} return false; }
+				, viewingTags: []
+				, hasMoreTags: true
+				, getCustomPoster : function(filmId) { return null; }
+			},
+			disableAds = false;
+		
+		
+		
+
+		
+
+		
+
+		
+
+		
+		
+			
+				if ( screen.width < 768 ) {
+					var date = new Date();
+					var maxAge = 365 * 24 * 60 * 60;
+					date.setTime(date.getTime() + maxAge * 1000);
+					var expires = '; expires=' + date.toUTCString();
+					document.cookie = "useMobileSite=yes" + expires + "; path=/; maxAge=" + maxAge;
+					if ( document.cookie && document.cookie.indexOf("useMobileSite=yes") >= 0 ) {
+						window.location.reload(true);
+					} else {
+						// No cookies.  No Mobile version.
+					}
+				}
+			
+		
+		
+		
+			var filmData = { id: 928261, posterURL: "/film/kinds-of-kindness/image-150/", path: "/film/kinds-of-kindness/", runTime: 0 };
+		
+		
+		;((data) => {
+			// data.assetPaths = data.assetPaths || {}
+			data.assetPaths = {
+				'egg-mi': ['https://s.ltrbxd.com/static/js/egg-mi.min.dd88c5f3.js', 'https://s.ltrbxd.com/static/css/egg-mi.min.310c513c.css']
+			}
+		})(window.__BXD_DATA = window.__BXD_DATA || {})
+	</script>
+
+	
+	
+
+
+
+
+
+	
+	
+	<script>
+		window.ramp = window.ramp || {};
+		window.ramp.que = window.ramp.que || [];
+		window.ramp.passiveMode = false; 
+		window.ramp.forcePath = '';
+		window.ramp.custom_tags = [
+			'comedy', 
+			'drama', 
+			'intl_false', 
+			'CWPw', 
+			'', 
+			'mystery_thriller_science-fiction_adventure_crime_horror_fantasy_action_non-english_indie_history_comedy'
+		];
+	</script>
+	<script src="//cdn.intergient.com/1024338/72804/ramp_config.js"></script>
+	<script>
+		window._pwGA4PageviewId = ''.concat(Date.now());
+		window.dataLayer = window.dataLayer || [];
+		window.gtag = window.gtag || function () { 
+			dataLayer.push(arguments);
+		};
+		gtag('js', new Date());
+		gtag('config', 'G-L0W7RDZXX3', { 'send_page_view': false });
+		gtag(
+			'event',
+			'ramp_js',
+			{
+				'send_to': 'G-L0W7RDZXX3',
+				'pageview_id': window._pwGA4PageviewId
+			}
+		);
+		
+		(function() {
+			const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+			window.isAndroid = new RegExp("android", "i").test(userAgent);
+			window.isIOS = new RegExp("iPad|iPhone|iPod", "i").test(userAgent) && !window.MSStream;
+			window.adsLocation = 'US';
+		})();
+	</script>
+
+
+
+	<link rel="manifest" href="/manifest.json" />
+	<link rel="author" type="text/plain" href="/humans.txt" />
+	<link rel="mask-icon" href="https://s.ltrbxd.com/static/img/icons/letterboxd-decal-l-16px.5fe24c7d.svg" color="#445566" />
+	<link rel="shortcut icon" sizes="196x196" href="https://s.ltrbxd.com/static/img/icons/touch-icon-192x192.257b84e7.png" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="search" type="application/opensearchdescription+xml" title="Letterboxd" href="/static/opensearch.xml" />
+	
+	
+	<link href="https://s.ltrbxd.com/static/css/main.min.a342e82f.css" rel="stylesheet" media="screen, projection"/>
+	
+	
+	
+	
+	
+	
+	<link href="https://s.ltrbxd.com/static/css/desktop.min.7e835ff2.css" rel="stylesheet" media="screen, projection"/>
+
+	<script src="https://s.ltrbxd.com/static/js/main.min.7cfbecc9.js"></script>
+	
+
+
+
+
+
+	<script>
+		if ( $.cookie("letterboxd.admin.signed.in") === person.username ) {
+			successMessages.push("You are signed in as " + person.username);
+			$(function(){$("#header, #content, body").css("background","#543");});
+		}
+	</script>
+	
+</head>
+
+<body class="film" data-type="film" data-tmdb-type="movie" data-tmdb-id="1029955">
+	
+
+
+
+
+
+
+
+
+
+<script>
+
+
+
+
+</script>
+
+
+
+
+
+<script>
+var mainMenu = [];
+
+	
+	mainMenu.push({
+		"id": 1,
+		"url": "/sign-in/", 
+		"name": "Sign in",
+		"cssClassCode": "sign-in-menu",
+		"hideWhenSignedIn": true,
+		"hideWhenNotSignedIn": false,
+		"showInMainNavForMobile": true,
+		"tooltip": "",
+		"selected": false
+	});
+
+	
+	mainMenu.push({
+		"id": 2,
+		"url": "/create-account/", 
+		"name": "Create account",
+		"cssClassCode": "create-account-menu",
+		"hideWhenSignedIn": true,
+		"hideWhenNotSignedIn": false,
+		"showInMainNavForMobile": false,
+		"tooltip": "",
+		"selected": false
+	});
+
+	
+	mainMenu.push({
+		"id": 3,
+		"url": "/", 
+		"name": "Home",
+		"cssClassCode": "person-home",
+		"hideWhenSignedIn": true,
+		"hideWhenNotSignedIn": true,
+		"showInMainNavForMobile": false,
+		"tooltip": "",
+		"selected": false
+	});
+
+	
+	mainMenu.push({
+		"id": 4,
+		"url": "/activity/", 
+		"name": "Activity",
+		"cssClassCode": "main-nav-activity",
+		"hideWhenSignedIn": false,
+		"hideWhenNotSignedIn": true,
+		"showInMainNavForMobile": false,
+		"tooltip": "Activity",
+		"selected": false
+	});
+
+	
+	mainMenu.push({
+		"id": 5,
+		"url": "/films/", 
+		"name": "Films",
+		"cssClassCode": "films-page main-nav-films",
+		"hideWhenSignedIn": false,
+		"hideWhenNotSignedIn": false,
+		"showInMainNavForMobile": false,
+		"tooltip": "",
+		"selected": false
+	});
+
+	
+	mainMenu.push({
+		"id": 6,
+		"url": "/lists/", 
+		"name": "Lists",
+		"cssClassCode": "lists-page main-nav-lists",
+		"hideWhenSignedIn": false,
+		"hideWhenNotSignedIn": false,
+		"showInMainNavForMobile": false,
+		"tooltip": "",
+		"selected": false
+	});
+
+	
+	mainMenu.push({
+		"id": 7,
+		"url": "/members/", 
+		"name": "Members",
+		"cssClassCode": "main-nav-people",
+		"hideWhenSignedIn": false,
+		"hideWhenNotSignedIn": false,
+		"showInMainNavForMobile": false,
+		"tooltip": "",
+		"selected": false
+	});
+
+	
+	mainMenu.push({
+		"id": 8,
+		"url": "/journal/", 
+		"name": "Journal",
+		"cssClassCode": "main-nav-journal",
+		"hideWhenSignedIn": false,
+		"hideWhenNotSignedIn": false,
+		"showInMainNavForMobile": false,
+		"tooltip": "",
+		"selected": false
+	});
+
+	
+	mainMenu.push({
+		"id": 9,
+		"url": "/search/", 
+		"name": "Search results",
+		"cssClassCode": "",
+		"hideWhenSignedIn": true,
+		"hideWhenNotSignedIn": true,
+		"showInMainNavForMobile": false,
+		"tooltip": "",
+		"selected": false
+	});
+
+</script>
+
+<header class="site-header js-hide-in-app" id="header">
+	<div class="site-header-bg"></div>
+	<section>
+		<h1 class="site-logo"><a href="/" class="logo replace">Letterboxd &mdash; Your life in film</a></h1>
+
+		<div class="react-component" data-component-class="globals.comps.NavComponent"></div>
+
+		
+			
+			
+
+
+	
+
+
+
+
+
+<form method="post" action="#" id="signin" class="signin signin-form js-header-signin-form js-signin" data-url="/user/login.do" data-recaptcha-action="signin" novalidate='novalidate' autocorrect='off' autocapitalize='off'>
+	<input type="hidden" name="__csrf" value="placeholder" />
+	<input type="hidden" name="authenticationCode" value="" />
+	<fieldset class="fieldset">
+		<div class="fields">
+			<div class="col">
+				<label for="username">Username</label>
+				<input type="email" name="username" id="username" class="field signin-field" tabindex="1" data-focus-control="signingIn" autocomplete='email' inputmode='email' value="" />
+			</div>
+			<div class="col">
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" class="field signin-field" tabindex="2" autocomplete='current-password' value="" />
+			</div>
+			<div class="signin-actions">
+				<label for="remember" class="option-label -checkbox -small">
+					<input type="checkbox" name="remember" id="remember" class="checkbox" tabindex="3" value="true" /><i class="substitute"></i>
+					<span class="focus">Remember<span class="mob-hide"> me</span></span>
+				</label>
+				<p class="reset" tabindex="5"><a class="reset-password-link" href="/user/request-password-reset" target="_top">Forgotten<span class="elongated"> username or password</span>?</a></p>
+			</div>
+			<div class="col buttons">
+				<div class="button-container"><input type="submit" value="Sign in" class="button -action button-green" tabindex="4" /><i></i></div>
+				<div class="close js-close-signin">&times;</div>
+			</div>
+		</div>
+	</fieldset>
+	<div id="signin-message" class="errormessage"></div>
+</form>
+
+
+		
+		
+		
+			
+			
+
+
+
+	
+	
+	<p>
+		<a href="#" id="add-new-button" class="button -action button-action button-add">Log</a>
+	</p>
+	<div class="add-menu-wrapper">
+		<a href="#" id="add-menu-button" class="button -action button-action button-add-menu">
+			<span class="toggle"></span>
+			<em>More...</em>
+		</a>
+		<ul id="add-menu">
+			<li><a href="/list/new/">Start a new list…</a></li>
+			
+		</ul>
+	</div>
+	<div style="display:none">
+		
+
+<div id="fb-root"></div>
+<div id="add-this-film"></div>
+<div id="modal" class="modal-legacy">
+	<article id="add-film" class="not-expanded clearfix">
+		<section class="not-expanded">
+			<h1 id="add-film-title">Add to your films…</h1>
+			<fieldset>
+				<div class="row form-row">
+					<label>Name of Film</label>
+					<input type="text" class="field-large field -reversed -large" id="frm-film-name" data-url="/s/autocompletefilm"/>
+				</div>
+			</fieldset>
+		</section>
+		
+		<aside class="col-4 left gutter-right-1 expanded">
+			<a id="back-to-film-search" href="#" class="replace back-button">Back</a>
+			<section id="poster-frame" class="poster-list -p150 no-hover">
+				<div class="poster no-poster">
+					<span class="frame"></span>
+				</div>
+			</section>
+			
+		</aside>
+		
+		<section class="col col-13 overflow expanded">
+			<h1 id="diary-entry-form-heading"></h1>
+			<h2 class="headline-2 prettify"><span id="film-title"></span> <small class="metadata" id="film-year"></small></h2>
+			
+			<form method="post" action="/s/save-diary-entry" id="diary-entry-form" class="fields-reversed"><input type="hidden" name="__csrf" value="2c2f234f55c44f026e39" />
+				<input type="hidden" name="viewingId" value="" id="frm-viewing-id"/>
+				<input type="hidden" name="filmId" value="" id="frm-film-id"/>
+				<fieldset>
+					<div class="form-row specified-dates">
+						<div class="col col-6 col-gap overflow js-specify-date">
+							<div class="needsclick">
+								<label for="frm-specify-date" class="needsclick option-label -checkbox -default -reversed">
+									<input type="checkbox" name="specifiedDate" id="frm-specify-date" class="needsclick js-specify-date checkbox " value="true" /><i class="substitute"></i>
+									<span id="frm-specify-date-label">Add film to your&nbsp;diary?</span>
+								</label>
+								<span id="frm-watched-label" style="display:none">Watched on <a href="#" id="add-date" class="modal-link"></a></span>
+							</div>
+						</div>
+						<div class="col col-6 overflow">
+							<label for="frm-rewatch" id="frm-rewatch-label" class="option-label -checkbox -default">
+								<input type="checkbox" name="rewatch" id="frm-rewatch" class="checkbox" value="true" /><i class="substitute"></i> 
+								I’ve watched this film before
+							</label>
+						</div>
+						<input type="hidden" name="viewingDateStr" id="frm-viewing-date-string" value="" />
+					</div>
+					<div class="form-row">
+						<textarea name="review" id="frm-review" class="field" placeholder="Add a review..."></textarea>
+					</div>
+					<div class="form-row clearfix">
+						<div class="col col-7 has-topnote add-tags">
+							
+
+
+
+
+
+<label for="frm-tags">Tags</label>
+<p class="note -topnote mob-hide">Press Tab to complete, Enter to create</p>
+<div class="autocomplete-tags">
+	<div id="tag-container">
+		<input type="text" id="frm-tags" class="tag-input-field field" name="tags" placeholder="eg. netflix" data-url="/s/autocompletetags" />
+	</div>
+	<div id="current-tags">
+		
+	</div>
+</div>
+						</div>
+						<div class="col col-1 col-right like-field">
+							<label class="option-label -like">
+								<input id="film-like-checkbox" type="checkbox" name="liked" value="true" class="ajax-working like-checkbox"/><i class="substitute"></i> 
+								Like
+							</label>
+						</div>
+						<div class="col col-4 col-right has-topnote rate-film">
+							<label>Rating</label>
+							<p class="note -topnote rating-text"></p>
+							<input id="frm-rating" name="rating" type="range" min="0" max="10" step="1" value="0"/>
+							<div class="rateit" data-rateit-backingfld="#frm-rating" data-rateit-starwidth="13" data-rateit-starheight="26" data-rateit-resetable="true"></div>
+						</div>
+					</div>
+					<div class="form-row clearfix row-last  row-sharing">
+						<div id="contains-spoilers" class="col col-6 col-gap overflow">
+							<label for="frm-spoilers" class="label-spoilers option-label -checkbox -default">
+								<input type="checkbox" name="containsSpoilers" id="frm-spoilers" class="checkbox" value="true" /><i class="substitute"></i>  
+								Contains spoilers
+							</label>
+							<p id="frm-spoilers-locked-label" class="note" style="display:none">A moderator has locked this field.</p>
+						</div>
+						<div class="col right">
+							<input id="diary-entry-submit-button" type="submit" class="button -action button-action" value="Save" />
+							<a href="#" id="diary-entry-delete-button" class="button button-delete -destructive ajax-click-action" data-confirm="Are you sure you want to delete this entry? It will disappear from your profile, but remain in your account export bundle, in a folder of deleted&nbsp;items.">Delete</a>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</section>
+	</article>
+</div>
+
+	</div>
+	
+	<div style="display:none">
+		<div id="add-to-a-list"></div>
+		<div id="add-to-a-list-modal" data-data-url="/s/load-lists">
+			
+			<form method="post" action="/s/add-film-to-list" class="not-expanded modal-container -mini"><input type="hidden" name="__csrf" value="2c2f234f55c44f026e39" />
+				<input class="film-id" type="hidden" name="filmId"/>
+				<div class="header">
+					<h1 class="title-2">Add <span class="film-name"></span> to lists</h1>
+					<div id="js-modal-warning" class="text" style="display: none;"></div>
+					<div class="segmented-control js-list-type-toggle -stretched">
+						<div class="options">
+							<button class="option -selected" data-list-type="public">Public</button>
+							<button class="option" data-list-type="private">Private</button>
+						</div>
+					</div>
+				</div>
+				<div class="body js-add-to-list-body">
+					<div class="list-selection -selected js-list-selection" data-list-type="public">
+						<div class="actions">
+							<a href class="new js-new-list" data-private-list="false"><span class="plus"></span>New list…</a>
+							<div class="filter">
+								<input type="text" class="input js-list-filter" id="list-filter-public" autocomplete="off" placeholder="Type to search" /><label for="list-filter-public" class="trigger"></label>
+								<button class="clear js-list-filter-clear">Clear</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="list-selection js-list-selection" data-list-type="private">
+						<div class="actions">
+							<a href class="new js-new-list" data-private-list="true"><span class="plus"></span>New list…</a>
+							<div class="filter">
+								<input type="text" class="input js-list-filter" id="list-filter-private" autocomplete="off" placeholder="Type to search" /><label for="list-filter-private"  class="trigger"></label>
+								<button class="clear js-list-filter-clear">Clear</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer">
+					<div class="status">
+						<p class="js-selected-lists-state"></p>
+					</div>
+					<div class="actions">
+						<input type="submit" class="button -action button-action js-add-to-list-submit" value="Add" disabled />
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	
+	
+	
+		<template id="share-policy-icon-anyone"><span class="share-policy-icon -anyone -circle">&nbsp;<span class="frame tooltip" data-original-title="Visible to anyone with share link" data-js-trigger="tooltip"> <svg class="glyph" role="presentation" xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path fill-rule="nonzero" d="M3.38 4.06a2.5 2.5 0 0 1 3.54 0l.99 1.04-1.06 1.06h-.02l-1-1.06a.96.96 0 0 0-1.36 0l-.43.44c-.1.08-.2.17-.29.28L1.82 7.75a.94.94 0 0 0-.28.7c0 .25.1.5.29.68l.4.4c.38.37.98.37 1.36.01l.83-.85c.4.4.88.66 1.39.82l-1.13 1.14a2.5 2.5 0 0 1-3.54 0l-.4-.4a2.5 2.5 0 0 1 0-3.54ZM9.1.61c.67 0 1.3.27 1.77.74l.4.4a2.5 2.5 0 0 1 0 3.54L8.63 7.94a2.5 2.5 0 0 1-3.54 0l-1.03-1 .41-.41.13-.15.15-.14.4-.4L6.18 6.9c.35.34.89.37 1.27.08l.09-.08 2.65-2.66a.94.94 0 0 0 .27-.56v-.13c.01-.26-.1-.5-.28-.69l-.4-.4a.99.99 0 0 0-1.36 0l-.84.84c-.4-.4-.89-.66-1.4-.82l1.15-1.13A2.5 2.5 0 0 1 9.09.6Z"/></svg> </span> <span class="label _sr-only">Visible to anyone with share link</span> </span></template>
+	
+		<template id="share-policy-icon-friends"><span class="share-policy-icon -friends -circle">&nbsp;<span class="frame tooltip" data-original-title="Visible to friends (people you follow) with share link" data-js-trigger="tooltip"> <svg class="glyph" role="presentation" xmlns="http://www.w3.org/2000/svg" width="14" height="12" fill-rule="evenodd" xmlns:v="https://vecta.io/nano"><path d="M10.201 7.732l-.26-.004c1.167 0 1.885.199 2.624.493.431.172.773.378 1.009.595.289.267.426.556.426.834V11l-3.148-.001.001-1.685c0-.515-.188-1.066-.652-1.582zM9.941 2.2c.58 0 1.119.214 1.503.611.342.353.565.853.565 1.489 0 .689-.169 1.45-.545 1.992a1.78 1.78 0 0 1-1.522.815c-.645 0-1.15-.332-1.502-.845-.376-.55-.566-1.312-.566-1.992 0-.635.223-1.128.563-1.473.384-.389.923-.596 1.504-.596zM4.853 6.911c1.458 0 2.136.249 3.06.616.539.215.966.472 1.261.744.362.334.533.696.533 1.043V11H0V9.314c0-.347.171-.709.533-1.043.294-.272.721-.529 1.261-.744.924-.368 1.601-.616 3.06-.616zm0-6.911c.724 0 1.398.268 1.878.763.427.441.706 1.066.706 1.861 0 .861-.212 1.812-.681 2.49-.426.615-1.052 1.019-1.903 1.019-.806 0-1.438-.414-1.877-1.057-.47-.688-.707-1.64-.707-2.49 0-.794.278-1.41.704-1.841C3.452.259 4.126 0 4.853 0z"/></svg> </span> <span class="label _sr-only">Visible to friends (people you follow) with share link</span> </span></template>
+	
+		<template id="share-policy-icon-you"><span class="share-policy-icon -you -circle">&nbsp;<span class="frame tooltip" data-original-title="Visible to you — private list" data-js-trigger="tooltip"> <svg class="glyph" role="presentation" xmlns="http://www.w3.org/2000/svg" width="10" height="12"><path fill-rule="evenodd" d="M5 0a3.5 3.5 0 0 1 3.5 3.5V4c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5h-7A1.5 1.5 0 0 1 0 10.5v-5C0 4.67.67 4 1.5 4v-.5A3.5 3.5 0 0 1 5 0Zm0 7a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm0-5.5a2 2 0 0 0-2 2V4h4v-.5a2 2 0 0 0-1.85-2H5Z"/></svg> </span> <span class="label _sr-only">Visible to you — private list</span> </span></template>
+	
+
+		
+		
+		
+		<form id="search" class="js-search-form search-form" action="/search/" method="get" autocorrect="off">
+			<input autocomplete="false" name="hidden" type="text" style="display:none;" />
+			<fieldset>
+				<label for="search-q" class="hidden">Search:</label>
+				<input type="text" name="q" id="search-q" class="field -borderless" data-lpignore='true' inputmode='search' value="" />
+				<input type="submit" value="Search" class="action" />
+			</fieldset>
+		</form>
+		
+	</section>
+</header>
+
+
+
+
+
+
+<div id="content" class="site-body">
+	
+	<div class="content-wrap">
+
+
+
+
+<div id="film-page-wrapper" class="cols-3 overflow">
+	
+		<div class="col-6 gutter-right-1 col-poster-large" id="js-poster-col">
+			
+	<div class="modal modal-poster fade" id="poster-modal" tabindex="-1" aria-hidden="true">
+		<div class="modal-dialog modal-fullscreen">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="modal-close -circle" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					
+							<div class="really-lazy-load poster film-poster film-poster-928261" data-image-width="1000" data-image-height="1500" data-film-id="928261" data-film-slug="kinds-of-kindness" data-poster-url="/film/kinds-of-kindness/image-150/" data-linked="unlinked" data-target-link="/" data-target-link-target="" data-cache-busting-key="fd16fa25" data-hide-tooltip="true" > <img src="https://s.ltrbxd.com/static/img/empty-poster-1000.84ac7d4a.png" class="image" width="1000" height="1500" alt="Kinds of Kindness"/> <span class="frame"><span class="frame-title"></span></span> </div>
+
+						
+				</div>
+				<div class="modal-footer"></div>
+			</div>
+		</div>
+	</div>
+
+
+			<section class="poster-list -p230 -single no-hover el col">
+				<a data-js-trigger="postermodal">
+					<div class="really-lazy-load poster film-poster film-poster-928261" data-image-width="230" data-image-height="345" data-film-id="928261" data-film-slug="kinds-of-kindness" data-poster-url="/film/kinds-of-kindness/image-150/" data-linked="unlinked" data-target-link="/" data-target-link-target="" data-cache-busting-key="fd16fa25" data-context="hero" data-show-menu="true" data-hide-tooltip="true" > <img src="https://s.ltrbxd.com/static/img/empty-poster-230.876e6b8e.png" class="image" width="230" height="345" alt="Kinds of Kindness"/> <span class="frame"><span class="frame-title"></span></span> </div> <div class="js-serial-csi " data-src="/csi/film/kinds-of-kindness/stats/" data-on-load=""> <ul class="film-stats"> <li class="stat"><a class="has-icon icon-placeholder">&nbsp;</a></li> </ul> </div>
+
+				</a>
+			</section>
+
+			
+	
+	
+
+
+
+
+
+
+
+
+<div class="js-csi js-hide-in-app" data-src="/csi/film/kinds-of-kindness/availability/?esiAllowUser=true&amp;esiAllowCountry=true" data-on-load="csi-availability">
+	
+		<section class="watch-panel">
+			<div class="header">
+				<h3 class="title">Where to watch</h3>
+				
+
+
+
+			</div>
+			<div id="watch">
+				<div class="other">
+					<span class="more">&nbsp;</span>
+					<a href="https://www.justwatch.com" target="_blank" rel="noopener noreferrer" class="jw-branding">JustWatch</a>
+				</div>
+			</div>
+		</section>
+	
+</div>
+
+
+
+			
+
+<script id="script-5ab292bc-3edb-4978-9fcb-e951dbb15aa6"> ((tag, target) => { let adsScript = null; let adsPlatforms = null; let adsExcludedLocations = null; if (!disableAds && person.showAds) { let adUnit = document.createElement('div'); let kicker = [ '<div class="upgrade-kicker -skyscraper js-hide-in-app">', '<button type="button" class="modaltrigger" data-bs-toggle="modal" data-bs-target="#remove-ads-modal">', 'Remove Ads', '<svg aria-hidden="true" width="7" height="7" xmlns="http://www.w3.org/2000/svg"><path d="m.5.5 6 6M6.5.5l-6 6" fill-rule="evenodd" stroke="#000"/></svg>', '</button>', '</div>' ].join(''); if ( adsScript && adsScript === 'bandsintown' && adsPlatforms && ((window.isIOS && adsPlatforms.indexOf("iOS") >= 0) || (window.isAndroid && adsPlatforms.indexOf("Android") >= 0)) && adsExcludedLocations && adsExcludedLocations.indexOf(window.adsLocation) == -1 ) { var opts = { artist: "", song: "", adunit_id: 100005950, div_id: "cf_async_5ab292bc-3edb-4978-9fcb-e951dbb15aa6" }; adUnit.id = opts.div_id; if (target) { target.insertAdjacentElement('beforeend', adUnit); } else { tag.insertAdjacentElement('afterend', adUnit); } window.addEventListener('DOMContentLoaded', (event) => { adUnit.insertAdjacentHTML('afterend', kicker); }, { once: true }); var c=function(){cf.showAsyncAd(opts)};if(typeof window.cf !== 'undefined')c();else{cf_async=!0;var r=document.createElement("script"),s=document.getElementsByTagName("script")[0];r.async=!0;r.src="//srv.tunefindforfans.com/fruits/apricots.js";r.readyState?r.onreadystatechange=function(){if("loaded"==r.readyState||"complete"==r.readyState)r.onreadystatechange=null,c()}:r.onload=c;s.parentNode.insertBefore(r,s)}; } else { adUnit.id = 'pw-5ab292bc-3edb-4978-9fcb-e951dbb15aa6'; adUnit.className = 'pw-div'; adUnit.setAttribute('data-pw-' + (renderMobile ? 'mobi' : 'desk'), 'sky_btf'); if (target) { target.insertAdjacentElement('beforeend', adUnit); } else { tag.insertAdjacentElement('afterend', adUnit); } window.addEventListener('DOMContentLoaded', (event) => { adUnit.insertAdjacentHTML('afterend', kicker); window.ramp.que.push(function () { window.ramp.addTag('pw-5ab292bc-3edb-4978-9fcb-e951dbb15aa6'); }); }, { once: true }); } } tag.remove(); })(document.getElementById('script-5ab292bc-3edb-4978-9fcb-e951dbb15aa6')); </script>
+
+		</div>
+	
+	<div class="col-17">
+		<section id="featured-film-header" class="film-header-lockup -default">
+			
+
+			<h1 class="headline-1 js-widont prettify">Kinds of Kindness</h1>
+			
+				
+			
+			
+				
+					<p>
+						<small class="number"><a href="/films/year/2024/">2024</a></small> 
+						
+						
+					
+					
+					Directed by <a href="/director/yorgos-lanthimos/"><span class="prettify">Yorgos Lanthimos</span></a>
+					
+				
+					</p>
+				
+			
+			
+		</section>
+		
+		<section class="section col-10 col-main">
+			
+			<section>
+				
+					<div class="review body-text -prose -hero prettify">
+						<h3 class="hidden">Synopsis</h3>
+						
+						
+	
+						
+					</div>
+				
+				
+
+<script id="script-0f871e6f-f9c0-4189-b4c6-7cf5e8adb597"> ((tag, target) => { let adsScript = null; let adsPlatforms = null; let adsExcludedLocations = null; if (!disableAds && person.showAds) { let adUnit = document.createElement('div'); let kicker = [ '<div class="upgrade-kicker -alignleft -med_rect js-hide-in-app">', '<button type="button" class="modaltrigger" data-bs-toggle="modal" data-bs-target="#remove-ads-modal">', 'Remove Ads', '<svg aria-hidden="true" width="7" height="7" xmlns="http://www.w3.org/2000/svg"><path d="m.5.5 6 6M6.5.5l-6 6" fill-rule="evenodd" stroke="#000"/></svg>', '</button>', '</div>' ].join(''); if ( adsScript && adsScript === 'bandsintown' && adsPlatforms && ((window.isIOS && adsPlatforms.indexOf("iOS") >= 0) || (window.isAndroid && adsPlatforms.indexOf("Android") >= 0)) && adsExcludedLocations && adsExcludedLocations.indexOf(window.adsLocation) == -1 ) { var opts = { artist: "", song: "", adunit_id: 100005950, div_id: "cf_async_0f871e6f-f9c0-4189-b4c6-7cf5e8adb597" }; adUnit.id = opts.div_id; if (target) { target.insertAdjacentElement('beforeend', adUnit); } else { tag.insertAdjacentElement('afterend', adUnit); } window.addEventListener('DOMContentLoaded', (event) => { adUnit.insertAdjacentHTML('afterend', kicker); }, { once: true }); var c=function(){cf.showAsyncAd(opts)};if(typeof window.cf !== 'undefined')c();else{cf_async=!0;var r=document.createElement("script"),s=document.getElementsByTagName("script")[0];r.async=!0;r.src="//srv.tunefindforfans.com/fruits/apricots.js";r.readyState?r.onreadystatechange=function(){if("loaded"==r.readyState||"complete"==r.readyState)r.onreadystatechange=null,c()}:r.onload=c;s.parentNode.insertBefore(r,s)}; } else { adUnit.id = 'pw-0f871e6f-f9c0-4189-b4c6-7cf5e8adb597'; adUnit.className = 'pw-div -tile300x250 -alignleft'; adUnit.setAttribute('data-pw-' + (renderMobile ? 'mobi' : 'desk'), 'med_rect_atf'); if (target) { target.insertAdjacentElement('beforeend', adUnit); } else { tag.insertAdjacentElement('afterend', adUnit); } window.addEventListener('DOMContentLoaded', (event) => { adUnit.insertAdjacentHTML('afterend', kicker); window.ramp.que.push(function () { window.ramp.addTag('pw-0f871e6f-f9c0-4189-b4c6-7cf5e8adb597'); }); }, { once: true }); } } tag.remove(); })(document.getElementById('script-0f871e6f-f9c0-4189-b4c6-7cf5e8adb597')); </script>
+
+				
+			</section>
+
+			
+
+			
+				
+				
+					<div id="tabbed-content" data-selected-tab="">
+						<header>
+							<ul>
+								<li><a href="/film/kinds-of-kindness/" data-id="cast">Cast</a></li>
+								<li><a href="/film/kinds-of-kindness/crew/" id="crew" data-id="crew">Crew</a></li>
+								<li><a href="/film/kinds-of-kindness/details/" data-id="details">Details</a></li>
+								<li><a href="/film/kinds-of-kindness/genres/" data-id="genres">Genres</a></li>
+								<li><a href="/film/kinds-of-kindness/releases/" data-id="releases">Releases</a></li>
+							</ul>
+						</header>
+						
+							<div id="tab-cast" class="tabbed-content-block">
+								<h3 class="hidden">Cast</h3>
+								<div class="cast-list text-sluglist">
+									<p>
+										<a href="/actor/emma-stone/" class="text-slug tooltip">Emma Stone</a> <a href="/actor/jesse-plemons/" class="text-slug tooltip">Jesse Plemons</a> <a href="/actor/willem-dafoe/" class="text-slug tooltip">Willem Dafoe</a> <a href="/actor/margaret-qualley/" class="text-slug tooltip">Margaret Qualley</a> <a href="/actor/hong-chau/" class="text-slug tooltip">Hong Chau</a> <a href="/actor/joe-alwyn/" class="text-slug tooltip">Joe Alwyn</a> <a href="/actor/mamoudou-athie/" class="text-slug tooltip">Mamoudou Athie</a> <a href="/actor/hunter-schafer/" class="text-slug tooltip">Hunter Schafer</a> 
+										
+									</p>
+								</div>
+							</div>
+						
+						
+							<div id="tab-crew" class="tabbed-content-block column-block -crewroles">
+								
+									<h3>
+										<span class="crewrole -full">Director</span>
+										<span class="crewrole -short" aria-hidden="true">Director</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/director/yorgos-lanthimos/" class="text-slug">Yorgos Lanthimos</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Assistant Directors</span>
+										<span class="crewrole -short" aria-hidden="true">Asst. Directors</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/assistant-director/alexander-armero/" class="text-slug">Alexander Armero</a> <a href="/assistant-director/hayley-williams-3/" class="text-slug">Hayley Williams</a> <a href="/assistant-director/sabapathy-nagarajan/" class="text-slug">Sabapathy Nagarajan</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Producers</span>
+										<span class="crewrole -short" aria-hidden="true">Producers</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/producer/andrew-lowe/" class="text-slug">Andrew Lowe</a> <a href="/producer/ed-guiney/" class="text-slug">Ed Guiney</a> <a href="/producer/yorgos-lanthimos/" class="text-slug">Yorgos Lanthimos</a> <a href="/producer/kasia-malipan/" class="text-slug">Kasia Malipan</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Executive Producers</span>
+										<span class="crewrole -short" aria-hidden="true">Exec. Producers</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/executive-producer/ollie-madden/" class="text-slug">Ollie Madden</a> <a href="/executive-producer/louise-lovegrove/" class="text-slug">Louise Lovegrove</a> <a href="/executive-producer/katie-goodson/" class="text-slug">Katie Goodson</a> <a href="/executive-producer/daniel-battsek/" class="text-slug">Daniel Battsek</a> <a href="/executive-producer/ben-coren/" class="text-slug">Ben Coren</a> <a href="/executive-producer/dantram-nguyen/" class="text-slug">DanTram Nguyen</a> <a href="/executive-producer/alice-whittemore/" class="text-slug">Alice Whittemore</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Writers</span>
+										<span class="crewrole -short" aria-hidden="true">Writers</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/writer/yorgos-lanthimos/" class="text-slug">Yorgos Lanthimos</a> <a href="/writer/efthymis-filippou/" class="text-slug">Efthymis Filippou</a> <a href="/writer/sabapathy-nagarajan/" class="text-slug">Sabapathy Nagarajan</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Casting</span>
+										<span class="crewrole -short" aria-hidden="true">Casting</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/casting/dixie-chassay/" class="text-slug">Dixie Chassay</a> <a href="/casting/lucy-jordan/" class="text-slug">Lucy Jordan</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Editor</span>
+										<span class="crewrole -short" aria-hidden="true">Editor</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/editor/yorgos-mavropsaridis/" class="text-slug">Yorgos Mavropsaridis</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Cinematography</span>
+										<span class="crewrole -short" aria-hidden="true">Cinematography</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/cinematography/robbie-ryan/" class="text-slug">Robbie Ryan</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Production Design</span>
+										<span class="crewrole -short" aria-hidden="true">Production Design</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/production-design/anthony-gasparro/" class="text-slug">Anthony Gasparro</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Art Direction</span>
+										<span class="crewrole -short" aria-hidden="true">Art Direction</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/art-direction/chris-cornwell/" class="text-slug">Chris Cornwell</a> <a href="/art-direction/alexandra-miklos/" class="text-slug">Alexandra Miklos</a> <a href="/art-direction/andrew-carnwath/" class="text-slug">Andrew Carnwath</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Set Decoration</span>
+										<span class="crewrole -short" aria-hidden="true">Set Decoration</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/set-decoration/amy-beth-silver/" class="text-slug">Amy Beth Silver</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Special Effects</span>
+										<span class="crewrole -short" aria-hidden="true">Special Effects</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/special-effects/erdwin-j-clausen-jr/" class="text-slug">Erdwin J. Clausen Jr.</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Title Design</span>
+										<span class="crewrole -short" aria-hidden="true">Title Design</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/title-design/vasilis-marmatakis/" class="text-slug">Vasilis Marmatakis</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Stunts</span>
+										<span class="crewrole -short" aria-hidden="true">Stunts</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/stunts/sean-paul-braud/" class="text-slug">Sean Paul Braud</a> <a href="/stunts/tim-bell/" class="text-slug">Tim Bell</a> <a href="/stunts/amanda-bradley/" class="text-slug">Amanda Bradley</a> <a href="/stunts/sarah-fisher-2/" class="text-slug">Sarah Fisher</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Composer</span>
+										<span class="crewrole -short" aria-hidden="true">Composer</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/composer/jerskin-fendrix/" class="text-slug">Jerskin Fendrix</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Sound</span>
+										<span class="crewrole -short" aria-hidden="true">Sound</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/sound/johnnie-burn/" class="text-slug">Johnnie Burn</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Costume Design</span>
+										<span class="crewrole -short" aria-hidden="true">Costume Design</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/costume-design/jennifer-johnson-1/" class="text-slug">Jennifer Johnson</a> 
+										</p>
+									</div>
+								
+									<h3>
+										<span class="crewrole -full">Makeup</span>
+										<span class="crewrole -short" aria-hidden="true">Makeup</span>
+									</h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/makeup/jessica-needham/" class="text-slug">Jessica Needham</a> 
+										</p>
+									</div>
+								
+							</div>
+						
+						
+							<div id="tab-details" class="tabbed-content-block column-block">
+								
+									<h3><span>Studios</span></h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/studio/searchlight-pictures/" class="text-slug">Searchlight Pictures</a> <a href="/studio/element-pictures/" class="text-slug">Element Pictures</a> <a href="/studio/film4-productions/" class="text-slug">Film4 Productions</a> 
+										</p>
+									</div>
+								
+								
+									<h3><span>Countries</span></h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/films/country/ireland/" class="text-slug">Ireland</a> <a href="/films/country/uk/" class="text-slug">UK</a> <a href="/films/country/usa/" class="text-slug">USA</a> 
+										</p>
+									</div>
+								
+								
+								
+								
+									<h3><span>Language</span></h3>
+									<div class="text-sluglist">
+										<p>
+											<a href="/films/language/english/" class="text-slug">English</a>
+										</p>
+									</div>
+								
+								
+								
+									<h3><span>Alternative Titles</span></h3>
+									<div class="text-indentedlist">
+										<p>
+											AND, 카인드 오브 카인드니스
+										</p>
+									</div>
+								
+							</div>
+						
+						
+							<div id="tab-genres" class="tabbed-content-block column-block">
+								
+									<h3><span>Genres</span></h3>
+									<div class="text-sluglist capitalize">
+										<p>
+											<a href="/films/genre/comedy/" class="text-slug">Comedy</a> <a href="/films/genre/drama/" class="text-slug">Drama</a> 
+										</p>
+									</div>
+								
+								
+							</div>
+						
+						
+							<div id="tab-releases" class="tabbed-content-block">
+								<section class="release-table-group">
+									<header class="header">
+										<h3 class="release-table-group-title _sr-only">Releases by Date</h3>
+
+										<section class="smenu-wrapper">
+											<strong class="smenu-label">Sort by</strong> 
+											<div class="smenu">
+												<label>Date<i class="ir s icon"></i></label>
+												<ul class="smenu-menu">
+													<li class="smenu-subselected"><span class="selected">Date</span></li>
+													<li><a class="item js-switch-tabbed-nav" href="/film/kinds-of-kindness/releases/by/country/" data-id="releases-by-country" data-parent-id="releases">Country</a></li>
+												</ul>
+											</div>
+										</section>
+									</header>
+
+									
+										<h3 class="release-table-title">Theatrical</h3>
+
+										<div class="release-table -bydate">
+											
+												<div class="listitem">
+													<div class="cell">
+														<h5 class="date">21 Jun 2024</h5>
+													</div>
+													<div class="cell countries">
+														<ul class="release-country-list">
+															
+																<li class="listitem">
+																	
+																	
+																	
+																	
+																	
+																	
+
+																	<span class="release-country -has-no-link -has-no-certification -has-no-note">
+																		<span class="flag -has-flag""><img src="https://s.ltrbxd.com/static/img/flags/USA.15de94e3.svg" alt="Flag for the USA" loading="lazy" /></span>
+																		
+																		<span class="details">
+																			<span class="name">USA</span>
+
+																		
+																		</span>
+																	</span>
+																</li>
+															
+														</ul>
+													</div>
+												</div>
+											
+										</div>
+									
+								</section>
+							</div>
+						
+						
+							<div id="tab-releases-by-country" data-id="releases-by-country" data-parent-id="releases" class="tabbed-content-block">
+								<section class="release-table-group">
+									<header class="header">
+										<h3 class="release-table-group-title _sr-only">Releases by Country</h3>
+
+										<section class="smenu-wrapper">
+											<strong class="smenu-label">Sort by</strong> 
+											<div class="smenu">
+												<label>Country<i class="ir s icon"></i></label>
+												<ul class="smenu-menu">
+													<li><a class="item js-switch-tabbed-nav" href="/film/kinds-of-kindness/releases/" data-id="releases">Date</a></li>
+													<li class="smenu-subselected"><span class="selected">Country</span></li>
+												</ul>
+											</div>
+										</section>
+									</header>
+									
+									<div class="release-table -bycountry">
+										
+											<div class="listitem">
+												<div class="cell">
+													
+													
+													
+													<h5 class="release-country -has-no-link -has-no-note">
+														<span class="flag -has-flag"><img src="https://s.ltrbxd.com/static/img/flags/USA.15de94e3.svg" alt="Flag for the USA" loading="lazy" /></span>
+														<span class="details"><span class="name">USA</span></span>
+													</h5>
+												</div>
+												<div class="cell details">
+													
+														
+															<div class="release-date-list">
+																<div class="listitem">
+																	<h6 class="date">21 Jun 2024</h6>
+
+																	<ul class="releases">
+																		
+																		
+
+																		<li class="listitem -has-no-certification -has-no-note">
+																			<span class="type">Theatrical</span>
+																			
+																			
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														
+													
+
+												</div>
+											</div>
+										
+									</div>
+								</section>
+							</div>
+						
+					</div>
+				
+				<p class="text-link text-footer">
+					
+					
+					
+						More at
+						<a href="http://www.imdb.com/title/tt22408160/maindetails" class="micro-button track-event" data-track-action="IMDb" target="_blank">IMDb</a>
+						<a href="https://www.themoviedb.org/movie/1029955/" class="micro-button track-event" data-track-action="TMDb" target="_blank">TMDb</a>
+					
+					<span class="block-flag-wrapper show-on-hover hide-when-logged-out"> <a href="#" class="block-or-report-flag report-link has-icon icon-16 icon-report tooltip" title="Report this page" data-report-url="/ajax/film:928261/report-form">Report this page</a> </span>
+				</p>
+			
+			
+		</section>
+
+		<aside class="sidebar">
+			<section id="userpanel" class="actions-panel">
+				<ul class="js-actions-panel">
+					
+					
+
+
+
+
+
+
+
+
+<span class="js-csi " data-src="/csi/film/kinds-of-kindness/sidebar-user-actions/?esiAllowUser=true" data-on-load="sidebar-user-actions">
+	
+</span>
+
+					
+					
+					<li class="panel-sharing sharing-toggle js-actions-panel-sharing">
+						<button class="trigger" type="button" aria-expanded="false" aria-controls="sharing-toggle-body-928261">Share</button>
+						<div id="sharing-toggle-body-928261" class="body">
+							<div class="urlgroup">
+								<input id="url-field-928261" type="text" value="https://boxd.it/CWPw" readonly spellcheck="false" /><button class="button clipboardtrigger has-icon" data-clipboard-target="#url-field-928261" data-sharer-type="link">
+									<span class="label">Copy URL to Clipboard</span>
+									<span class="icon"></span>
+								</button>
+							</div>
+							
+							
+							<a class="shareitem -link -twitter" href="https://twitter.com/intent/tweet?text=Kinds%20of%20Kindness%20%282024%29%20on%20%40letterboxd%3A%20https%3A%2F%2Fboxd.it%2FCWPw" rel="noreferrer" title="Tweet a link" data-sharer-type="twitter">
+								<span class="label">Tweet a link</span>
+								<span class="icon"></span>
+							</a>
+							
+							
+							<a class="shareitem -link -facebook" href="https://www.facebook.com/dialog/feed?app_id=173683136069040&display=popup&link=https%3A%2F%2Fletterboxd.com%2Ffilm%2Fkinds-of-kindness%2F&redirect_uri=https://letterboxd.com/facebook-share" rel="noreferrer" title="Share to Facebook" data-sharer-type="facebook">
+								<span class="label">Share to Facebook</span>
+								<span class="icon"></span>
+							</a>
+						</div>
+					</li>
+	 			</ul>
+			</section>
+
+			
+			
+
+
+
+
+
+
+
+
+<div class="js-csi " data-src="/csi/film/kinds-of-kindness/rating-histogram/" data-on-load="film-rating-histogram">
+	
+</div>
+
+		</aside>
+
+		
+
+		
+		
+
+
+
+
+
+
+
+
+<div class="js-csi " data-src="/csi/film/kinds-of-kindness/friend-activity/?esiAllowUser=true" data-on-load="">
+	
+</div>
+
+
+		
+
+		
+
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+<div class="js-csi " data-src="/csi/film/kinds-of-kindness/news/?esiAllowUser=true&amp;esiAllowCountry=true" data-on-load="film-news">
+	
+</div>
+
+
+		
+				
+			
+
+		
+		
+		
+		
+		
+		
+		
+		
+
+		<section class="section related-lists -clear">
+			
+			
+			
+
+
+
+
+
+
+
+
+<div class="js-csi " data-src="/csi/film/kinds-of-kindness/popular-lists/" data-on-load="csi-popular-lists">
+	
+</div>
+
+
+			
+			
+	
+	
+		
+
+
+		</section>
+	</div>
+
+	<div class="clear"></div>
+</div>
+
+
+
+
+
+
+
+
+
+		</div> 
+
+		
+
+	</div> 
+
+
+
+	<footer id="page-footer" class="page-footer js-page-footer js-hide-in-app">
+		<div class="content-wrap">
+			
+				<nav class="footer-nav js-footer-nav">
+					<ul>
+						<li><a href="/about/">About</a></li>
+						<li><a href="/journal/">News</a></li>
+						<li class="js-hide-in-app"><a href="/pro/">Pro</a></li>
+						<li><a href="/apps/">Apps</a></li>
+						<li><a href="https://apple.co/3TfzHVG" target="_blank" rel="noopener noreferrer">Podcast</a></li>
+						<li><a href="/year-in-review/">Year in Review</a></li>
+						<li><a href="/gift-guide/">Gift Guide</a></li>
+						<li><a href="/welcome/">Help</a></li>
+						<li><a href="/legal/terms-of-use/">Terms</a></li>
+						<li><a href="/api-beta/">API</a></li>
+						<li><a href="/contact/">Contact</a></li>
+					</ul>
+				</nav>
+	
+
+			<div class="socials">
+				<nav class="social-service-list -inline">
+					<div class="listitem -icononly">
+						<a class="trigger tooltip" href="https://twitter.com/letterboxd" target="_blank" rel="noopener noreferrer" title="Letterboxd on X">
+							<svg class="glyph" aria-hidden="true" role="presentation" xmlns="http://www.w3.org/2000/svg" width="17" height="17"><path fill-rule="nonzero" d="m5.4 0 4 6 5-6h2.1l-.3.4-5.9 6.8 6.5 9.5.2.3h-5.3l-4.3-6.3L2 16.9 2 17H0l.3-.4 6.2-7.2L.3.4 0 0h5.3Zm-1 1.5H2.9l4.9 7 .6.9 4.3 6.1h1.6l-5-7.3-.7-.9-4-5.8Z"/></svg>
+							<span class="label">X</span>
+						</a>
+					</div>
+
+					
+						<div class="listitem -icononly">
+							<a class="trigger tooltip" href="https://www.threads.net/@letterboxd" target="_blank" rel="noopener noreferrer" title="Letterboxd on Threads">
+								<svg class="glyph" aria-hidden="true" role="presentation" xmlns="http://www.w3.org/2000/svg" width="16" height="18"><path fill-rule="nonzero" d="M8.1 0c2.8 0 4.9.9 6.3 2.6.7.9 1.3 1.9 1.6 3v.1l-1.6.4c-.3-1-.7-1.8-1.3-2.4-1.1-1.3-2.8-2-5-2-2.1 0-3.8.7-4.9 2-1 1.2-1.5 3-1.5 5.3s.5 4 1.5 5.3c1.1 1.3 2.8 2 5 2 1.9 0 3.2-.4 4.3-1.5 1-1 1.3-2.4.8-3.5-.2-.5-.6-1-1.1-1.2-.2 1-.5 1.7-1 2.3-.7.8-1.6 1.3-2.8 1.3-1 .1-1.8-.1-2.5-.6A2.8 2.8 0 0 1 4.5 11C4.5 9 6 7.8 8.2 7.6l2.3.1c-.1-.5-.3-.9-.6-1.2-.4-.4-1-.6-1.7-.7-.9 0-1.6.3-2 1H6L4.7 6a4 4 0 0 1 3.5-1.7c2.3 0 3.8 1.4 4 3.8v.2h.2v.1c1.2.5 2 1.3 2.4 2.3.8 1.7.5 3.8-1.1 5.4A7.4 7.4 0 0 1 8 18c-2.7 0-4.8-1-6.2-2.6A10 10 0 0 1 0 9c0-2.7.7-4.8 2-6.4C3.2 1 5.3 0 8 0ZM9 9.3h-.6c-1.4 0-2.1.7-2 1.5 0 .8.9 1.3 2 1.3.6 0 1-.2 1.4-.5.4-.4.7-1 .8-2v-.2A8 8 0 0 0 9 9.3h-.1Z"/></svg>
+								<span class="label">Threads</span>
+							</a>
+						</div>
+					
+
+					<div class="listitem -icononly">
+						<a class="trigger tooltip" href="https://www.facebook.com/letterboxd" target="_blank" rel="noopener noreferrer" title="Letterboxd on Facebook">
+							<svg class="glyph" aria-hidden="true" role="presentation" width="19" height="19" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 0a9.5 9.5 0 0 0-1.48 18.89V12H5.6V9.25h2.42V7.41c0-2.38 1.41-3.7 3.58-3.7 1.04 0 2.13.19 2.13.19v2.33h-1.2c-1.18 0-1.54.74-1.54 1.49v1.53h2.63L13.2 12h-2.21v6.89A9.5 9.5 0 0 0 9.5 0Z"/></svg>
+							<span class="label">Facebook</span>
+						</a>
+					</div>
+
+					<div class="listitem -icononly">
+						<a class="trigger tooltip" href="https://www.instagram.com/letterboxd" target="_blank" rel="noopener noreferrer" title="Letterboxd on Instagram">
+							<svg class="glyph" aria-hidden="true" role="presentation" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M14.12.06c1.07.05 1.8.22 2.43.46.66.26 1.21.6 1.77 1.16.56.55.9 1.11 1.15 1.77.25.63.42 1.36.47 2.43.04.94.06 1.32.06 3.3v1.37c0 1.54 0 2.19-.03 2.77v.22l-.03.58a7.34 7.34 0 0 1-.47 2.43 4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.16c-.64.24-1.36.41-2.43.46l-.61.03h-.23c-.5.02-1.06.03-2.21.03H9.2c-2 0-2.37-.02-3.32-.06a7.34 7.34 0 0 1-2.43-.46 4.9 4.9 0 0 1-1.77-1.16 4.9 4.9 0 0 1-1.16-1.77 7.34 7.34 0 0 1-.46-2.43l-.03-.61v-.2A60.9 60.9 0 0 1 0 11.5V8.75C0 7.7.01 7.17.03 6.7v-.2l.03-.61C.1 4.8.28 4.08.52 3.45a4.9 4.9 0 0 1 1.16-1.77A4.9 4.9 0 0 1 3.45.52 7.34 7.34 0 0 1 5.88.06l.61-.03h.2C7.12 0 7.6 0 8.5 0h2.74c1.62 0 2 .02 2.88.06ZM11.02 2H8.97c-1.7 0-2.05.02-2.92.06a5.4 5.4 0 0 0-1.82.33c-.45.18-.78.39-1.12.73-.34.34-.55.67-.73 1.12-.13.35-.3.86-.33 1.82C2.02 6.93 2 7.29 2 8.98v2.04c0 1.7.02 2.05.06 2.92.04.95.2 1.47.33 1.81.18.46.39.78.73 1.13.34.34.67.55 1.12.73.35.13.86.29 1.82.33.83.04 1.2.05 2.7.06h2.47c1.51 0 1.87-.02 2.71-.06a5.4 5.4 0 0 0 1.81-.33c.46-.18.78-.4 1.12-.73.35-.35.56-.67.73-1.13.14-.34.3-.86.34-1.8a49 49 0 0 0 .06-2.72V8.77a49 49 0 0 0-.06-2.71 5.4 5.4 0 0 0-.34-1.82 3.02 3.02 0 0 0-.73-1.12 3.02 3.02 0 0 0-1.12-.73 5.4 5.4 0 0 0-1.81-.33c-.88-.04-1.23-.06-2.93-.06ZM10 4.86a5.14 5.14 0 1 1 0 10.28 5.14 5.14 0 0 1 0-10.28ZM10 7a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.25-3.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z"/></svg>
+							<span class="label">Instagram</span>
+						</a>
+					</div>
+
+					<div class="listitem -icononly">
+						<a class="trigger tooltip" href="https://www.tiktok.com/@letterboxd" target="_blank" rel="noopener noreferrer" title="Letterboxd on TikTok">
+							<svg class="glyph" aria-hidden="true" role="presentation" width="17" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M16.48 4.32a4.62 4.62 0 0 1-3.92-2.66A4.04 4.04 0 0 1 12.23 0H9.07v11.85c0 1.93-1.19 3.07-2.65 3.07a2.71 2.71 0 0 1-2.04-.9 2.57 2.57 0 0 1-.6-2.1 2.55 2.55 0 0 1 1.26-1.81 2.7 2.7 0 0 1 2.24-.21V6.77a5.92 5.92 0 0 0-4.08.86 5.7 5.7 0 0 0-2.15 2.55 5.53 5.53 0 0 0 1.26 6.16 5.86 5.86 0 0 0 6.33 1.23 5.78 5.78 0 0 0 2.6-2.08c.64-.94.98-2.03.98-3.15V5.96a7.74 7.74 0 0 0 4.25 1.25V4.32Z"/></svg>
+							<span class="label">TikTok</span>
+						</a>
+					</div>
+
+					<div class="listitem -icononly">
+						<a class="trigger tooltip" href="https://www.youtube.com/letterboxdhq" target="_blank" rel="noopener noreferrer" title="Letterboxd on YouTube">
+							<svg class="glyph" aria-hidden="true" role="presentation" width="23" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M11.74 0c.61 0 2.33.02 4.11.08l.54.02c1.7.06 3.35.18 4.1.38a2.87 2.87 0 0 1 2.03 2.02c.45 1.67.48 5.04.48 5.46v.08c0 .42-.03 3.8-.48 5.46a2.87 2.87 0 0 1-2.03 2.02c-.75.2-2.4.32-4.1.38l-.54.02c-1.78.07-3.5.08-4.11.08H11.26c-.62 0-2.33-.01-4.11-.08l-.54-.02c-1.7-.06-3.36-.18-4.1-.38A2.87 2.87 0 0 1 .48 13.5C.04 11.9 0 8.68 0 8.1v-.2c0-.58.04-3.79.48-5.4A2.87 2.87 0 0 1 2.5.48c.74-.2 2.4-.32 4.1-.38l.54-.02C8.93.02 10.65 0 11.26 0ZM9 4.57v6.86L15 8 9 4.57Z"/></svg>
+							<span class="label">YouTube</span>
+						</a>
+					</div>
+				</nav>
+			</div>
+			
+			
+			
+			<p class="copyright">
+				&copy; Letterboxd Limited. Made by <a href="/crew/" class="mute">fans</a> in Aotearoa New Zealand.
+				<span class="nobr"><a href="https://letterboxd.com/about/film-data/" class="mute">Film data</a> from <a href="https://www.themoviedb.org" class="mute">TMDb</a>. 
+				
+						<a href="#" class="mute mobile-site-switch" data-use-mobile-site="yes">Mobile&nbsp;site</a>.
+					
+	</span>
+				<span class="recap" style="display:none"><br/>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="mute">privacy policy</a> and <a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer" class="mute">terms of service</a>&nbsp;apply.</span>
+			</p>
+		</div>
+	</footer>
+
+<script type="application/ld+json">
+/* <![CDATA[ */
+{"@type":"Movie","dateModified":"2024-03-19","productionCompany":[{"@type":"Organization","name":"Searchlight Pictures","sameAs":"/studio/searchlight-pictures/"},{"@type":"Organization","name":"Element Pictures","sameAs":"/studio/element-pictures/"},{"@type":"Organization","name":"Film4 Productions","sameAs":"/studio/film4-productions/"}],"releasedEvent":[{"@type":"PublicationEvent"}],"@context":"http://schema.org","url":"https://letterboxd.com/film/kinds-of-kindness/","actors":[{"@type":"Person","name":"Emma Stone","sameAs":"/actor/emma-stone/"},{"@type":"Person","name":"Jesse Plemons","sameAs":"/actor/jesse-plemons/"},{"@type":"Person","name":"Willem Dafoe","sameAs":"/actor/willem-dafoe/"},{"@type":"Person","name":"Margaret Qualley","sameAs":"/actor/margaret-qualley/"},{"@type":"Person","name":"Hong Chau","sameAs":"/actor/hong-chau/"},{"@type":"Person","name":"Joe Alwyn","sameAs":"/actor/joe-alwyn/"},{"@type":"Person","name":"Mamoudou Athie","sameAs":"/actor/mamoudou-athie/"},{"@type":"Person","name":"Hunter Schafer","sameAs":"/actor/hunter-schafer/"}],"dateCreated":"2022-09-30","name":"Kinds of Kindness","genre":["Comedy","Drama"],"@id":"https://letterboxd.com/film/kinds-of-kindness/","countryOfOrigin":[{"@type":"Country","name":"Ireland"},{"@type":"Country","name":"UK"},{"@type":"Country","name":"USA"}]}
+/* ]]> */
+</script>
+
+
+
+
+	
+
+
+
+
+
+
+<form id="poster-picker-modal" class="modal fade poster-picker-modal" method="post" action="" novalidate="novalidate" tabindex="-1" role="dialog" aria-labelledby="poster-picker-modal-title" aria-hidden="true" data-bs-backdrop="static">
+    <div class="modal-dialog modal-lg modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="poster-picker-modal-title">Select your preferred <span class="js-image-type">poster</span></a></h5>
+                <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="poster-picker-e11a6700-737c-4eb3-8775-fdec00fa9ad5" data-poster-picker-options='{"id": "e11a6700-737c-4eb3-8775-fdec00fa9ad5"}' data-js-target="poster-picker"></div>
+            </div>
+            <div class="modal-footer">
+                <div class="poster-picker-note"></div>
+
+                <div class="poster-picker-controls" data-poster-picker-controls-for="e11a6700-737c-4eb3-8775-fdec00fa9ad5"> <div class="modal-action-group -center"> <button class="button -destructive" type="button" data-js-trigger="reset" disabled> <span class="label" data-js-label-for="film" >Reset <span class="js-image-type">poster</span></span> <span class="label" data-js-label-for="object" hidden>Reset for <span class="js-object-name">item</span></span> </button> <button class="button -action" type="submit" data-js-trigger="submit" disabled> <span class="label" data-js-label-for="film" >Save<span class="mob-hide"> changes</span></span> <span class="label" data-js-label-for="object" hidden>Save<span class="mob-hide"> for <span class="js-object-name">item</span></span></span> </button> </div> <div class="objectonly js-objectonly" aria-hidden="true" hidden> <label for="frm-object-only" class="option-label -checkbox -medium -reversed"> <input type="checkbox" value="true" class="checkbox" id="frm-object-only" data-js-trigger="object-only" disabled /><i class="substitute"></i>This <span class="js-object-name">item</span> only </label> </div> </div>
+            </div>
+        </div>
+    </div>
+</form>
+	
+	
+	
+		<div id="remove-ads-modal" class="modal fade modal-upgrade-message" tabindex="-1" aria-labelledby="remove-ads-modal-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="remove-ads-modal-title">Upgrade to remove&nbsp;ads</h5>
+                <button type="button" class="modal-close modal-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="body-text -hero">
+                    <p>Letterboxd is an independent service created by a small team, and we rely mostly on the support of our members to maintain our site and apps. Please consider upgrading to a <a href="/pro/">Pro account</a>—for less than a couple bucks a month, you’ll get cool additional features like all-time and annual stats pages (<a href="https://letterboxd.com/jack/stats/">example</a>), the ability to select (and filter by) your favorite streaming services, and no ads!</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="/pro/" class="button -action button-action">Learn more about Pro</a>
+            </div>
+        </div>
+    </div>
+</div>
+		<script defer src="https://s.ltrbxd.com/static/js/partner-publishers.min.4e9bca73.js"></script>
+	
+</body>
+</html>
+
+<script>
+
+	gtag('event', 'genre_view', {
+		genre: 'comedy',
+		transport_type: 'beacon',
+	});
+
+	gtag('event', 'genre_view', {
+		genre: 'drama',
+		transport_type: 'beacon',
+	});
+
+</script>
