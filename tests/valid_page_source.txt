@@ -34,49 +34,6 @@
 	<meta name="mobile-web-app-capable" content="yes" />
 
 	<title>&lrm;Shrek (2001) directed by Andrew Adamson, Vicky Jenson • Reviews, film + cast &bull; Letterboxd</title>
-	
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		window.gtag = window.gtag || function () {
-			dataLayer.push(arguments);
-		};
-		function ga() {}
-	</script>
-
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-D3ECBB4D7L"></script>
-
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		window.gtag = window.gtag || function () {
-			dataLayer.push(arguments);
-		};
-		gtag('js', new Date());
-	
-		var analytic_params = {};
-		
-		
-		analytic_params['user_id'] = '9765b27715b66e5944c4d3ec61dfb5e58e424b2f'; analytic_params['user_type'] = 'Member'; analytic_params['member_type'] = 'FREE';
-		analytic_params['template'] = '/object/film';
-		
-		
-				analytic_params['film_id'] = '29zi';
-			
-
-		if (analytic_params.member_type) {
-			gtag('set', 'user_properties', { 
-				member_type: analytic_params.member_type,
-			});
-			delete analytic_params.member_type;
-		}
-		var config = {
-			...analytic_params,
-			'cookie_domain': 'letterboxd.com', 
-			'optimize_id': 'GTM-TB8HSDN', 
-		};
-		gtag('config', 'G-D3ECBB4D7L', config);
-	</script>
-
-
 	<script>
 		
 		((r, n) => {
@@ -128,12 +85,51 @@
 				, hasMoreTags: true
 				, getCustomPoster : function(filmId) { return null; }
 			},
-			disableAds = false;
+			disableAds = false,
+			analytic_params = {};
 		
 		
+supermodelCSRF = '683d293c0a6d92a32f43'; geolocation.country = 'US'; analytic_params['user_id'] = '9765b27715b66e5944c4d3ec61dfb5e58e424b2f'; analytic_params['user_type'] = 'Member'; analytic_params['member_type'] = 'FREE'; person.username = "ShayneEvans"; person.loggedIn = true; person.profileLink = "/shayneevans/"; person.optimisedPosters = false; person.role = "member"; person.moderator = false; person.showAds = true; person.canUpgradeToPro = true; person.hasExtendedServiceFilters = false; person.canBulkAddToLists = false; person.canFilterOwned = false; person.canAccessEnhancedFilters = false; person.hasHqRole = false; person.canHaveHqDashboard = false; person.hasMemberStatistics = false; person.canAccessFilmStats = false; person.blockedMembers = []; person.showAdultContent = false; person.validated = true; person.trusted = true; person.avatarURL16 = "https://a.ltrbxd.com/resized/avatar/upload/9/3/8/2/7/1/0/shard/avtr-0-32-0-32-crop.jpg?v=0da229cc44"; person.avatarURL24 = "https://a.ltrbxd.com/resized/avatar/upload/9/3/8/2/7/1/0/shard/avtr-0-48-0-48-crop.jpg?v=0da229cc44"; person.posterMode = "All"; person.canHaveCustomPosters = false; person.canCustomiseCustomisablePosters = true; person.getCustomPoster = function(film) { const posters = {}; return posters[film]; }; person.getContributorPoster = function(contributor) { const posters = {}; return posters[contributor]; }; person.showFilmClub = false
+	</script>
+	
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		window.gtag = window.gtag || function () {
+			dataLayer.push(arguments);
+		};
+		function ga() {}
+	</script>
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-D3ECBB4D7L"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		window.gtag = window.gtag || function () {
+			dataLayer.push(arguments);
+		};
+		gtag('js', new Date());
+	
+		analytic_params['template'] = '/object/film';
 		
+		
+				analytic_params['film_id'] = '29zi';
+			
+
+		if (analytic_params.member_type) {
+			gtag('set', 'user_properties', { 
+				member_type: analytic_params.member_type,
+			});
+			delete analytic_params.member_type;
+		}
+		var config = {
+			...analytic_params,
+			'cookie_domain': 'letterboxd.com', 
+			'optimize_id': 'GTM-TB8HSDN', 
+		};
+		gtag('config', 'G-D3ECBB4D7L', config);
+	</script>
 
 
+	<script>
 		
 
 		
@@ -229,7 +225,7 @@
 	<link rel="search" type="application/opensearchdescription+xml" title="Letterboxd" href="/static/opensearch.xml" />
 	
 	
-	<link href="https://s.ltrbxd.com/static/css/main.min.a342e82f.css" rel="stylesheet" media="screen, projection"/>
+	<link href="https://s.ltrbxd.com/static/css/main.min.08d761ae.css" rel="stylesheet" media="screen, projection"/>
 	
 	
 	
@@ -238,7 +234,7 @@
 	
 	<link href="https://s.ltrbxd.com/static/css/desktop.min.7e835ff2.css" rel="stylesheet" media="screen, projection"/>
 
-	<script src="https://s.ltrbxd.com/static/js/main.min.7cfbecc9.js"></script>
+	<script src="https://s.ltrbxd.com/static/js/main.min.b1fc936a.js"></script>
 	
 
 
@@ -277,11 +273,9 @@
 
 
 
-
 <script>
 var mainMenu = [];
 
-	
 	mainMenu.push({
 		"id": 1,
 		"url": "/sign-in/", 
@@ -294,7 +288,6 @@ var mainMenu = [];
 		"selected": false
 	});
 
-	
 	mainMenu.push({
 		"id": 2,
 		"url": "/create-account/", 
@@ -307,7 +300,6 @@ var mainMenu = [];
 		"selected": false
 	});
 
-	
 	mainMenu.push({
 		"id": 3,
 		"url": "/", 
@@ -320,7 +312,6 @@ var mainMenu = [];
 		"selected": false
 	});
 
-	
 	mainMenu.push({
 		"id": 4,
 		"url": "/activity/", 
@@ -333,7 +324,6 @@ var mainMenu = [];
 		"selected": false
 	});
 
-	
 	mainMenu.push({
 		"id": 5,
 		"url": "/films/", 
@@ -346,7 +336,6 @@ var mainMenu = [];
 		"selected": false
 	});
 
-	
 	mainMenu.push({
 		"id": 6,
 		"url": "/lists/", 
@@ -359,7 +348,6 @@ var mainMenu = [];
 		"selected": false
 	});
 
-	
 	mainMenu.push({
 		"id": 7,
 		"url": "/members/", 
@@ -372,7 +360,6 @@ var mainMenu = [];
 		"selected": false
 	});
 
-	
 	mainMenu.push({
 		"id": 8,
 		"url": "/journal/", 
@@ -385,7 +372,6 @@ var mainMenu = [];
 		"selected": false
 	});
 
-	
 	mainMenu.push({
 		"id": 9,
 		"url": "/search/", 
@@ -408,8 +394,6 @@ var mainMenu = [];
 		<div class="react-component" data-component-class="globals.comps.NavComponent"></div>
 
 		
-			
-			
 
 
 	
@@ -450,25 +434,21 @@ var mainMenu = [];
 
 		
 		
-		
-			
 			
 
 
-
-	
-	
-	<p>
+	<p class="show-when-logged-in">
 		<a href="#" id="add-new-button" class="button -action button-action button-add">Log</a>
 	</p>
-	<div class="add-menu-wrapper">
+	<div class="add-menu-wrapper show-when-logged-in">
 		<a href="#" id="add-menu-button" class="button -action button-action button-add-menu">
 			<span class="toggle"></span>
 			<em>More...</em>
 		</a>
 		<ul id="add-menu">
 			<li><a href="/list/new/">Start a new list…</a></li>
-			
+			<li><a href="#" class="js-add-all-films-on-page-to-list">Add all films to a list&hellip;</a></li>
+			<li><a href="#" class="js-add-all-films-on-page-to-watchlist" data-action="/watchlist/add-films/">Add all films to watchlist</a></li>
 		</ul>
 	</div>
 	<div style="display:none">
@@ -502,7 +482,8 @@ var mainMenu = [];
 			<h1 id="diary-entry-form-heading"></h1>
 			<h2 class="headline-2 prettify"><span id="film-title"></span> <small class="metadata" id="film-year"></small></h2>
 			
-			<form method="post" action="/s/save-diary-entry" id="diary-entry-form" class="fields-reversed"><input type="hidden" name="__csrf" value="2c2f234f55c44f026e39" />
+			<form method="post" action="/s/save-diary-entry" id="diary-entry-form" class="fields-reversed">
+				<input type="hidden" name="__csrf" value="placeholder" />
 				<input type="hidden" name="viewingId" value="" id="frm-viewing-id"/>
 				<input type="hidden" name="filmId" value="" id="frm-film-id"/>
 				<fieldset>
@@ -559,7 +540,7 @@ var mainMenu = [];
 							<div class="rateit" data-rateit-backingfld="#frm-rating" data-rateit-starwidth="13" data-rateit-starheight="26" data-rateit-resetable="true"></div>
 						</div>
 					</div>
-					<div class="form-row clearfix row-last  row-sharing">
+					<div class="form-row clearfix row-last ">
 						<div id="contains-spoilers" class="col col-6 col-gap overflow">
 							<label for="frm-spoilers" class="label-spoilers option-label -checkbox -default">
 								<input type="checkbox" name="containsSpoilers" id="frm-spoilers" class="checkbox" value="true" /><i class="substitute"></i>  
@@ -584,7 +565,8 @@ var mainMenu = [];
 		<div id="add-to-a-list"></div>
 		<div id="add-to-a-list-modal" data-data-url="/s/load-lists">
 			
-			<form method="post" action="/s/add-film-to-list" class="not-expanded modal-container -mini"><input type="hidden" name="__csrf" value="2c2f234f55c44f026e39" />
+			<form method="post" action="/s/add-film-to-list" class="not-expanded modal-container -mini">
+				<input type="hidden" name="__csrf" value="placeholder" />
 				<input class="film-id" type="hidden" name="filmId"/>
 				<div class="header">
 					<h1 class="title-2">Add <span class="film-name"></span> to lists</h1>
@@ -736,7 +718,7 @@ var mainMenu = [];
 
 			
 
-<script id="script-aa85c591-f343-498a-983c-93b653a0abf1"> ((tag, target) => { let adsScript = null; let adsPlatforms = null; let adsExcludedLocations = null; if (!disableAds && person.showAds) { let adUnit = document.createElement('div'); let kicker = [ '<div class="upgrade-kicker -skyscraper js-hide-in-app">', '<button type="button" class="modaltrigger" data-bs-toggle="modal" data-bs-target="#remove-ads-modal">', 'Remove Ads', '<svg aria-hidden="true" width="7" height="7" xmlns="http://www.w3.org/2000/svg"><path d="m.5.5 6 6M6.5.5l-6 6" fill-rule="evenodd" stroke="#000"/></svg>', '</button>', '</div>' ].join(''); if ( adsScript && adsScript === 'bandsintown' && adsPlatforms && ((window.isIOS && adsPlatforms.indexOf("iOS") >= 0) || (window.isAndroid && adsPlatforms.indexOf("Android") >= 0)) && adsExcludedLocations && adsExcludedLocations.indexOf(window.adsLocation) == -1 ) { var opts = { artist: "", song: "", adunit_id: 100005950, div_id: "cf_async_aa85c591-f343-498a-983c-93b653a0abf1" }; adUnit.id = opts.div_id; if (target) { target.insertAdjacentElement('beforeend', adUnit); } else { tag.insertAdjacentElement('afterend', adUnit); } window.addEventListener('DOMContentLoaded', (event) => { adUnit.insertAdjacentHTML('afterend', kicker); }, { once: true }); var c=function(){cf.showAsyncAd(opts)};if(typeof window.cf !== 'undefined')c();else{cf_async=!0;var r=document.createElement("script"),s=document.getElementsByTagName("script")[0];r.async=!0;r.src="//srv.tunefindforfans.com/fruits/apricots.js";r.readyState?r.onreadystatechange=function(){if("loaded"==r.readyState||"complete"==r.readyState)r.onreadystatechange=null,c()}:r.onload=c;s.parentNode.insertBefore(r,s)}; } else { adUnit.id = 'pw-aa85c591-f343-498a-983c-93b653a0abf1'; adUnit.className = 'pw-div'; adUnit.setAttribute('data-pw-' + (renderMobile ? 'mobi' : 'desk'), 'sky_btf'); if (target) { target.insertAdjacentElement('beforeend', adUnit); } else { tag.insertAdjacentElement('afterend', adUnit); } window.addEventListener('DOMContentLoaded', (event) => { adUnit.insertAdjacentHTML('afterend', kicker); window.ramp.que.push(function () { window.ramp.addTag('pw-aa85c591-f343-498a-983c-93b653a0abf1'); }); }, { once: true }); } } tag.remove(); })(document.getElementById('script-aa85c591-f343-498a-983c-93b653a0abf1')); </script>
+<script id="script-da451b1b-b382-4d20-9bf6-4b0fba1faaf5"> ((tag, target) => { let adsScript = null; let adsPlatforms = null; let adsExcludedLocations = null; if (!disableAds && person.showAds) { let adUnit = document.createElement('div'); let kicker = [ '<div class="upgrade-kicker -skyscraper js-hide-in-app">', '<button type="button" class="modaltrigger" data-bs-toggle="modal" data-bs-target="#remove-ads-modal">', 'Remove Ads', '<svg aria-hidden="true" width="7" height="7" xmlns="http://www.w3.org/2000/svg"><path d="m.5.5 6 6M6.5.5l-6 6" fill-rule="evenodd" stroke="#000"/></svg>', '</button>', '</div>' ].join(''); if ( adsScript && adsScript === 'bandsintown' && adsPlatforms && ((window.isIOS && adsPlatforms.indexOf("iOS") >= 0) || (window.isAndroid && adsPlatforms.indexOf("Android") >= 0)) && adsExcludedLocations && adsExcludedLocations.indexOf(window.adsLocation) == -1 ) { var opts = { artist: "", song: "", adunit_id: 100005950, div_id: "cf_async_da451b1b-b382-4d20-9bf6-4b0fba1faaf5" }; adUnit.id = opts.div_id; if (target) { target.insertAdjacentElement('beforeend', adUnit); } else { tag.insertAdjacentElement('afterend', adUnit); } window.addEventListener('DOMContentLoaded', (event) => { adUnit.insertAdjacentHTML('afterend', kicker); }, { once: true }); var c=function(){cf.showAsyncAd(opts)};if(typeof window.cf !== 'undefined')c();else{cf_async=!0;var r=document.createElement("script"),s=document.getElementsByTagName("script")[0];r.async=!0;r.src="//srv.tunefindforfans.com/fruits/apricots.js";r.readyState?r.onreadystatechange=function(){if("loaded"==r.readyState||"complete"==r.readyState)r.onreadystatechange=null,c()}:r.onload=c;s.parentNode.insertBefore(r,s)}; } else { adUnit.id = 'pw-da451b1b-b382-4d20-9bf6-4b0fba1faaf5'; adUnit.className = 'pw-div'; adUnit.setAttribute('data-pw-' + (renderMobile ? 'mobi' : 'desk'), 'sky_btf'); if (target) { target.insertAdjacentElement('beforeend', adUnit); } else { tag.insertAdjacentElement('afterend', adUnit); } window.addEventListener('DOMContentLoaded', (event) => { adUnit.insertAdjacentHTML('afterend', kicker); window.ramp.que.push(function () { window.ramp.addTag('pw-da451b1b-b382-4d20-9bf6-4b0fba1faaf5'); }); }, { once: true }); } } tag.remove(); })(document.getElementById('script-da451b1b-b382-4d20-9bf6-4b0fba1faaf5')); </script>
 
 		</div>
 	
@@ -781,7 +763,7 @@ var mainMenu = [];
 				
 				
 
-<script id="script-2120c214-1879-4111-831d-47bac1f5940c"> ((tag, target) => { let adsScript = null; let adsPlatforms = null; let adsExcludedLocations = null; if (!disableAds && person.showAds) { let adUnit = document.createElement('div'); let kicker = [ '<div class="upgrade-kicker -alignleft -med_rect js-hide-in-app">', '<button type="button" class="modaltrigger" data-bs-toggle="modal" data-bs-target="#remove-ads-modal">', 'Remove Ads', '<svg aria-hidden="true" width="7" height="7" xmlns="http://www.w3.org/2000/svg"><path d="m.5.5 6 6M6.5.5l-6 6" fill-rule="evenodd" stroke="#000"/></svg>', '</button>', '</div>' ].join(''); if ( adsScript && adsScript === 'bandsintown' && adsPlatforms && ((window.isIOS && adsPlatforms.indexOf("iOS") >= 0) || (window.isAndroid && adsPlatforms.indexOf("Android") >= 0)) && adsExcludedLocations && adsExcludedLocations.indexOf(window.adsLocation) == -1 ) { var opts = { artist: "", song: "", adunit_id: 100005950, div_id: "cf_async_2120c214-1879-4111-831d-47bac1f5940c" }; adUnit.id = opts.div_id; if (target) { target.insertAdjacentElement('beforeend', adUnit); } else { tag.insertAdjacentElement('afterend', adUnit); } window.addEventListener('DOMContentLoaded', (event) => { adUnit.insertAdjacentHTML('afterend', kicker); }, { once: true }); var c=function(){cf.showAsyncAd(opts)};if(typeof window.cf !== 'undefined')c();else{cf_async=!0;var r=document.createElement("script"),s=document.getElementsByTagName("script")[0];r.async=!0;r.src="//srv.tunefindforfans.com/fruits/apricots.js";r.readyState?r.onreadystatechange=function(){if("loaded"==r.readyState||"complete"==r.readyState)r.onreadystatechange=null,c()}:r.onload=c;s.parentNode.insertBefore(r,s)}; } else { adUnit.id = 'pw-2120c214-1879-4111-831d-47bac1f5940c'; adUnit.className = 'pw-div -tile300x250 -alignleft'; adUnit.setAttribute('data-pw-' + (renderMobile ? 'mobi' : 'desk'), 'med_rect_atf'); if (target) { target.insertAdjacentElement('beforeend', adUnit); } else { tag.insertAdjacentElement('afterend', adUnit); } window.addEventListener('DOMContentLoaded', (event) => { adUnit.insertAdjacentHTML('afterend', kicker); window.ramp.que.push(function () { window.ramp.addTag('pw-2120c214-1879-4111-831d-47bac1f5940c'); }); }, { once: true }); } } tag.remove(); })(document.getElementById('script-2120c214-1879-4111-831d-47bac1f5940c')); </script>
+<script id="script-6dec05d6-74fe-4da2-8438-95d0366ac468"> ((tag, target) => { let adsScript = null; let adsPlatforms = null; let adsExcludedLocations = null; if (!disableAds && person.showAds) { let adUnit = document.createElement('div'); let kicker = [ '<div class="upgrade-kicker -alignleft -med_rect js-hide-in-app">', '<button type="button" class="modaltrigger" data-bs-toggle="modal" data-bs-target="#remove-ads-modal">', 'Remove Ads', '<svg aria-hidden="true" width="7" height="7" xmlns="http://www.w3.org/2000/svg"><path d="m.5.5 6 6M6.5.5l-6 6" fill-rule="evenodd" stroke="#000"/></svg>', '</button>', '</div>' ].join(''); if ( adsScript && adsScript === 'bandsintown' && adsPlatforms && ((window.isIOS && adsPlatforms.indexOf("iOS") >= 0) || (window.isAndroid && adsPlatforms.indexOf("Android") >= 0)) && adsExcludedLocations && adsExcludedLocations.indexOf(window.adsLocation) == -1 ) { var opts = { artist: "", song: "", adunit_id: 100005950, div_id: "cf_async_6dec05d6-74fe-4da2-8438-95d0366ac468" }; adUnit.id = opts.div_id; if (target) { target.insertAdjacentElement('beforeend', adUnit); } else { tag.insertAdjacentElement('afterend', adUnit); } window.addEventListener('DOMContentLoaded', (event) => { adUnit.insertAdjacentHTML('afterend', kicker); }, { once: true }); var c=function(){cf.showAsyncAd(opts)};if(typeof window.cf !== 'undefined')c();else{cf_async=!0;var r=document.createElement("script"),s=document.getElementsByTagName("script")[0];r.async=!0;r.src="//srv.tunefindforfans.com/fruits/apricots.js";r.readyState?r.onreadystatechange=function(){if("loaded"==r.readyState||"complete"==r.readyState)r.onreadystatechange=null,c()}:r.onload=c;s.parentNode.insertBefore(r,s)}; } else { adUnit.id = 'pw-6dec05d6-74fe-4da2-8438-95d0366ac468'; adUnit.className = 'pw-div -tile300x250 -alignleft'; adUnit.setAttribute('data-pw-' + (renderMobile ? 'mobi' : 'desk'), 'med_rect_atf'); if (target) { target.insertAdjacentElement('beforeend', adUnit); } else { tag.insertAdjacentElement('afterend', adUnit); } window.addEventListener('DOMContentLoaded', (event) => { adUnit.insertAdjacentHTML('afterend', kicker); window.ramp.que.push(function () { window.ramp.addTag('pw-6dec05d6-74fe-4da2-8438-95d0366ac468'); }); }, { once: true }); } } tag.remove(); })(document.getElementById('script-6dec05d6-74fe-4da2-8438-95d0366ac468')); </script>
 
 				
 			</section>
@@ -1040,8 +1022,8 @@ var mainMenu = [];
 									<h3><span>Themes</span></h3>
 									<div class="text-sluglist capitalize">
 										<p>
-											<a href="/films/theme/crude-humor-and-satire/by/best-match/" class="text-slug">Crude humor and satire</a> 
-											<a href="/films/mini-theme/fantasy-imaginative-magic-fairy-tale-or-enchanted/by/best-match/" class="text-slug">Fairy-tale fantasy and enchanted magic</a> <a href="/films/mini-theme/christmas-holiday-heartwarming-family-adorable/by/best-match/" class="text-slug">Holiday joy and heartwarming Christmas</a> <a href="/films/mini-theme/humor-cartoon-funny-jokes-lovable/by/best-match/" class="text-slug">Kids&#039; animated fun and adventure</a> <a href="/films/mini-theme/dog-animals-adorable-heartwarming-family/by/best-match/" class="text-slug">Adorable animals and heartwarming families</a> <a href="/films/mini-theme/jokes-humor-chuckles-crude-gag/by/best-match/" class="text-slug">Funny jokes and crude humor</a> 
+											<a href="/films/theme/crude-humor-and-satire/by/best-match/" class="text-slug">Crude humor and satire</a> <a href="/films/theme/relationship-comedy/by/best-match/" class="text-slug">Relationship comedy</a> <a href="/films/theme/song-and-dance/by/best-match/" class="text-slug">Song and dance</a> 
+											<a href="/films/mini-theme/humor-cartoon-funny-jokes-lovable/by/best-match/" class="text-slug">Kids&#039; animated fun and adventure</a> <a href="/films/mini-theme/fantasy-imaginative-magic-fairy-tale-or-enchanted/by/best-match/" class="text-slug">Fairy-tale fantasy and enchanted magic</a> <a href="/films/mini-theme/jokes-humor-chuckles-crude-gag/by/best-match/" class="text-slug">Funny jokes and crude humor</a> <a href="/films/mini-theme/christmas-holiday-heartwarming-family-adorable/by/best-match/" class="text-slug">Holiday joy and heartwarming Christmas</a> <a href="/films/mini-theme/chemistry-hilarious-romantic-comedy-sweet-or-humorous/by/best-match/" class="text-slug">Laugh-out-loud relationship entanglements</a> 
 											<a class="text-slug" href="/film/shrek/themes/">Show All&hellip;</a>
 										</p>
 									</div>
@@ -5146,7 +5128,7 @@ var mainMenu = [];
 							<a href="/film/shrek/reviews/by/activity/" class="all-link">More</a>
 							<ul class="film-popular-review">
 								
-									<li class="film-detail" data-viewing-id="15292768" data-person="phrynefisher"> <a class="avatar -a40" href="/phrynefisher/" > <img src="https://a.ltrbxd.com/resized/avatar/twitter/1/7/9/2/8/2/shard/http___pbs.twimg.com_profile_images_1556092202216214528_i3snhOoS-0-80-0-80-crop.jpg?v=946c734504" alt="indi" width="40" height="40" /> </a> <div class="film-detail-content"> <div class="attribution-block -large"> <p class="attribution"> <a href="/phrynefisher/film/shrek/" class="context" title="Read indi’s review"> Review by <strong class="name">indi</strong> </a> <span class="rating -green rated-8"> ★★★★ </span> <span class="content-metadata"> <a href="/phrynefisher/film/shrek/" class="has-icon icon-comment icon-16 comment-count">8</a> </span> </p> </div> <div class="body-text -prose collapsible-text" data-full-text-url="/s/full-text/viewing:15292768/"> <p>wonder how leonard cohen feels knowing that for an entire generation the beautiful chords of "hallelujah" will just conjure up the mental image of two ogres pining for one another</p> </div> <p class="like-link-target react-component -monotone" data-component-class="globals.comps.LikeLinkComponent" data-likeable-uid="viewing:15292768" data-likeable-name="review" data-likeable="true" data-likes-page="/phrynefisher/film/shrek/likes/" data-format="svg" data-owner="phrynefisher" > <span class="svg-action -like"></span> </p> </div> </li>
+									<li class="film-detail" data-viewing-id="15292768" data-person="phrynefisher"> <a class="avatar -a40" href="/phrynefisher/" > <img src="https://a.ltrbxd.com/resized/avatar/twitter/1/7/9/2/8/2/shard/http___pbs.twimg.com_profile_images_1556092202216214528_i3snhOoS-0-80-0-80-crop.jpg?v=946c734504" alt="indi" width="40" height="40" /> </a> <div class="film-detail-content"> <div class="attribution-block -large"> <p class="attribution"> <a href="/phrynefisher/film/shrek/" class="context" title="Read indi’s review"> Review by <strong class="name">indi</strong> </a> <span class="rating -green rated-8"> ★★★★ </span> <span class="content-metadata"> <a href="/phrynefisher/film/shrek/" class="has-icon icon-comment icon-16 comment-count">9</a> </span> </p> </div> <div class="body-text -prose collapsible-text" data-full-text-url="/s/full-text/viewing:15292768/"> <p>wonder how leonard cohen feels knowing that for an entire generation the beautiful chords of "hallelujah" will just conjure up the mental image of two ogres pining for one another</p> </div> <p class="like-link-target react-component -monotone" data-component-class="globals.comps.LikeLinkComponent" data-likeable-uid="viewing:15292768" data-likeable-name="review" data-likeable="true" data-likes-page="/phrynefisher/film/shrek/likes/" data-format="svg" data-owner="phrynefisher" > <span class="svg-action -like"></span> </p> </div> </li>
 
 								
 									<li class="film-detail" data-viewing-id="131729108" data-person="demiadejuyigbe"> <a class="avatar -a40" href="/demiadejuyigbe/" > <img src="https://a.ltrbxd.com/resized/avatar/upload/2/4/3/0/5/shard/avtr-0-80-0-80-crop.jpg?v=1db8f5608c" alt="demi adejuyigbe" width="40" height="40" /> </a> <div class="film-detail-content"> <div class="attribution-block -large"> <p class="attribution"> <a href="/demiadejuyigbe/film/shrek/" class="context" title="Read demi adejuyigbe’s review"> Review by <strong class="name">demi adejuyigbe</strong> </a> <span class="content-metadata"> <a href="/demiadejuyigbe/film/shrek/" class="has-icon icon-comment icon-16 comment-count">27</a> </span> </p> </div> <div class="body-text -prose collapsible-text" data-full-text-url="/s/full-text/viewing:131729108/"> <p>for Halloween, we dressed up like French people, made a galette and some crepes, turned our TV to black and white, and watched Shrek in French with subtitles for a long-planned French Shrek night. What have I learned by watching Shrek as if it were a Godard film? Absolutely nothing. I don’t think the music choices work very well in the places they use them. Funny to hear French people say “Shrek.” The parfait joke doesn’t work in French! My sympathies to the French population.</p> </div> <p class="like-link-target react-component -monotone" data-component-class="globals.comps.LikeLinkComponent" data-likeable-uid="viewing:131729108" data-likeable-name="review" data-likeable="true" data-likes-page="/demiadejuyigbe/film/shrek/likes/" data-format="svg" data-owner="demiadejuyigbe" > <span class="svg-action -like"></span> </p> </div> </li>
@@ -5164,7 +5146,7 @@ var mainMenu = [];
 									<li class="film-detail" data-viewing-id="261968638" data-person="Kurstboy"> <a class="avatar -a40" href="/kurstboy/" > <img src="https://a.ltrbxd.com/resized/avatar/twitter/4/9/0/4/5/7/shard/http___pbs.twimg.com_profile_images_1001935353740177414_9ZQ0Noe4-0-80-0-80-crop.jpg?v=2627a755b4" alt="Karst" width="40" height="40" /> </a> <div class="film-detail-content"> <div class="attribution-block -large"> <p class="attribution"> <a href="/kurstboy/film/shrek/1/" class="context" title="Read Karst’s review"> Review by <strong class="name">Karst</strong> </a> <span class="rating -green rated-9"> ★★★★½ </span> </p> </div> <div class="body-text -prose collapsible-text" data-full-text-url="/s/full-text/viewing:261968638/"> <p>true love :)</p> </div> <p class="like-link-target react-component -monotone" data-component-class="globals.comps.LikeLinkComponent" data-likeable-uid="viewing:261968638" data-likeable-name="review" data-likeable="true" data-likes-page="/kurstboy/film/shrek/1/likes/" data-format="svg" data-owner="Kurstboy" > <span class="svg-action -like"></span> </p> </div> </li>
 
 								
-									<li class="film-detail" data-viewing-id="154596570" data-person="cuqui"> <a class="avatar -a40" href="/cuqui/" > <img src="https://a.ltrbxd.com/resized/avatar/upload/2/4/0/0/8/1/shard/avtr-0-80-0-80-crop.jpg?v=0b53933ad8" alt="cookie" width="40" height="40" /> </a> <div class="film-detail-content"> <div class="attribution-block -large"> <p class="attribution"> <a href="/cuqui/film/shrek/1/" class="context" title="Read cookie’s review"> Review by <strong class="name">cookie</strong> </a> <span class="rating -green rated-9"> ★★★★½ </span> <span class="content-metadata"> <a href="/cuqui/film/shrek/1/" class="has-icon icon-comment icon-16 comment-count">7</a> </span> </p> </div> <div class="body-text -prose collapsible-text" data-full-text-url="/s/full-text/viewing:154596570/"> <p>had to rewatch to remember what animal donkey was</p> </div> <p class="like-link-target react-component -monotone" data-component-class="globals.comps.LikeLinkComponent" data-likeable-uid="viewing:154596570" data-likeable-name="review" data-likeable="true" data-likes-page="/cuqui/film/shrek/1/likes/" data-format="svg" data-owner="cuqui" > <span class="svg-action -like"></span> </p> </div> </li>
+									<li class="film-detail" data-viewing-id="154596570" data-person="cuqui"> <a class="avatar -a40" href="/cuqui/" > <img src="https://a.ltrbxd.com/resized/avatar/upload/2/4/0/0/8/1/shard/avtr-0-80-0-80-crop.jpg?v=0b53933ad8" alt="cookie" width="40" height="40" /> </a> <div class="film-detail-content"> <div class="attribution-block -large"> <p class="attribution"> <a href="/cuqui/film/shrek/1/" class="context" title="Read cookie’s review"> Review by <strong class="name">cookie</strong> </a> <span class="rating -green rated-9"> ★★★★½ </span> <span class="content-metadata"> <a href="/cuqui/film/shrek/1/" class="has-icon icon-comment icon-16 comment-count">8</a> </span> </p> </div> <div class="body-text -prose collapsible-text" data-full-text-url="/s/full-text/viewing:154596570/"> <p>had to rewatch to remember what animal donkey was</p> </div> <p class="like-link-target react-component -monotone" data-component-class="globals.comps.LikeLinkComponent" data-likeable-uid="viewing:154596570" data-likeable-name="review" data-likeable="true" data-likes-page="/cuqui/film/shrek/1/likes/" data-format="svg" data-owner="cuqui" > <span class="svg-action -like"></span> </p> </div> </li>
 
 								
 									<li class="film-detail" data-viewing-id="53258570" data-person="riverjphoenix"> <a class="avatar -a40" href="/riverjphoenix/" > <img src="https://a.ltrbxd.com/resized/avatar/upload/4/8/4/5/0/3/shard/avtr-0-80-0-80-crop.jpg?v=c05dbbc019" alt="ciara" width="40" height="40" /> </a> <div class="film-detail-content"> <div class="attribution-block -large"> <p class="attribution"> <a href="/riverjphoenix/film/shrek/1/" class="context" title="Read ciara’s review"> Review by <strong class="name">ciara</strong> </a> <span class="rating -green rated-10"> ★★★★★ </span> </p> </div> <div class="body-text -prose collapsible-text" data-full-text-url="/s/full-text/viewing:53258570/"> <p><i>she’s married to the muffin man</i><br /><i>the muffin man?</i><br /><i><b>THE MUFFIN MAN!</b></i></p> </div> <p class="like-link-target react-component -monotone" data-component-class="globals.comps.LikeLinkComponent" data-likeable-uid="viewing:53258570" data-likeable-name="review" data-likeable="true" data-likes-page="/riverjphoenix/film/shrek/1/likes/" data-format="svg" data-owner="riverjphoenix" > <span class="svg-action -like"></span> </p> </div> </li>
@@ -5179,7 +5161,7 @@ var mainMenu = [];
 									<li class="film-detail" data-viewing-id="242500573" data-person="CitizenHAL"> <a class="avatar -a40" href="/citizenhal/" > <img src="https://a.ltrbxd.com/resized/avatar/upload/1/0/1/1/0/1/5/shard/avtr-0-80-0-80-crop.jpg?v=72b89cf978" alt="HAL" width="40" height="40" /> </a> <div class="film-detail-content"> <div class="attribution-block -large"> <p class="attribution"> <a href="/citizenhal/film/shrek/4/" class="context" title="Read HAL’s review"> Review by <strong class="name">HAL</strong> </a> <span class="rating -green rated-10"> ★★★★★ </span> <span class="content-metadata"> <a href="/citizenhal/film/shrek/4/" class="has-icon icon-comment icon-16 comment-count">7</a> </span> </p> </div> <div class="body-text -prose collapsible-text" data-full-text-url="/s/full-text/viewing:242500573/"> <p>I watched this in honor of international womens day</p> </div> <p class="like-link-target react-component -monotone" data-component-class="globals.comps.LikeLinkComponent" data-likeable-uid="viewing:242500573" data-likeable-name="review" data-likeable="true" data-likes-page="/citizenhal/film/shrek/4/likes/" data-format="svg" data-owner="CitizenHAL" > <span class="svg-action -like"></span> </p> </div> </li>
 
 								
-									<li class="film-detail" data-viewing-id="43997011" data-person="twincoves"> <a class="avatar -a40" href="/twincoves/" > <img src="https://a.ltrbxd.com/resized/avatar/upload/3/4/7/2/0/8/shard/avtr-0-80-0-80-crop.jpg?v=9999e7e614" alt="twincoves" width="40" height="40" /> </a> <div class="film-detail-content"> <div class="attribution-block -large"> <p class="attribution"> <a href="/twincoves/film/shrek/1/" class="context" title="Read twincoves’s review"> Review by <strong class="name">twincoves</strong> </a> <span class="rating -green rated-8"> ★★★★ </span> <span class="content-metadata"> <a href="/twincoves/film/shrek/1/" class="has-icon icon-comment icon-16 comment-count">11</a> </span> </p> </div> <div class="body-text -prose collapsible-text" data-full-text-url="/s/full-text/viewing:43997011/"> <p>times I’ve seen Casablanca: one<br />times I’ve seen Citizen Kane: one<br />times I’ve seen The Godfather: one<br />times I’ve seen Fight Club: 0<br />times I’ve seen Shrek (2001): 100000000000</p> </div> <p class="like-link-target react-component -monotone" data-component-class="globals.comps.LikeLinkComponent" data-likeable-uid="viewing:43997011" data-likeable-name="review" data-likeable="true" data-likes-page="/twincoves/film/shrek/1/likes/" data-format="svg" data-owner="twincoves" > <span class="svg-action -like"></span> </p> </div> </li>
+									<li class="film-detail" data-viewing-id="43997011" data-person="twincoves"> <a class="avatar -a40" href="/twincoves/" > <img src="https://a.ltrbxd.com/resized/avatar/upload/3/4/7/2/0/8/shard/avtr-0-80-0-80-crop.jpg?v=9999e7e614" alt="twincoves" width="40" height="40" /> </a> <div class="film-detail-content"> <div class="attribution-block -large"> <p class="attribution"> <a href="/twincoves/film/shrek/1/" class="context" title="Read twincoves’s review"> Review by <strong class="name">twincoves</strong> </a> <span class="rating -green rated-8"> ★★★★ </span> <span class="content-metadata"> <a href="/twincoves/film/shrek/1/" class="has-icon icon-comment icon-16 comment-count">12</a> </span> </p> </div> <div class="body-text -prose collapsible-text" data-full-text-url="/s/full-text/viewing:43997011/"> <p>times I’ve seen Casablanca: one<br />times I’ve seen Citizen Kane: one<br />times I’ve seen The Godfather: one<br />times I’ve seen Fight Club: 0<br />times I’ve seen Shrek (2001): 100000000000</p> </div> <p class="like-link-target react-component -monotone" data-component-class="globals.comps.LikeLinkComponent" data-likeable-uid="viewing:43997011" data-likeable-name="review" data-likeable="true" data-likes-page="/twincoves/film/shrek/1/likes/" data-format="svg" data-owner="twincoves" > <span class="svg-action -like"></span> </p> </div> </li>
 
 								
 							</ul>
@@ -5466,7 +5448,7 @@ var mainMenu = [];
 
 <script type="application/ld+json">
 /* <![CDATA[ */
-{"image":"https://a.ltrbxd.com/resized/film-poster/5/1/3/4/4/51344-shrek-0-230-0-345-crop.jpg?v=cd09df2c75","@type":"Movie","director":[{"@type":"Person","name":"Andrew Adamson","sameAs":"/director/andrew-adamson/"},{"@type":"Person","name":"Vicky Jenson","sameAs":"/director/vicky-jenson/"}],"dateModified":"2024-03-11","productionCompany":[{"@type":"Organization","name":"DreamWorks Pictures","sameAs":"/studio/dreamworks-pictures/"},{"@type":"Organization","name":"Pacific Data Images","sameAs":"/studio/pacific-data-images/"},{"@type":"Organization","name":"DreamWorks Animation","sameAs":"/studio/dreamworks-animation/"}],"releasedEvent":[{"@type":"PublicationEvent","startDate":"2001"}],"@context":"http://schema.org","url":"https://letterboxd.com/film/shrek/","actors":[{"@type":"Person","name":"Mike Myers","sameAs":"/actor/mike-myers/"},{"@type":"Person","name":"Eddie Murphy","sameAs":"/actor/eddie-murphy/"},{"@type":"Person","name":"Cameron Diaz","sameAs":"/actor/cameron-diaz/"},{"@type":"Person","name":"John Lithgow","sameAs":"/actor/john-lithgow/"},{"@type":"Person","name":"Vincent Cassel","sameAs":"/actor/vincent-cassel/"},{"@type":"Person","name":"Peter Dennis","sameAs":"/actor/peter-dennis/"},{"@type":"Person","name":"Clive Pearse","sameAs":"/actor/clive-pearse/"},{"@type":"Person","name":"Jim Cummings","sameAs":"/actor/jim-cummings/"},{"@type":"Person","name":"Bobby Block","sameAs":"/actor/bobby-block/"},{"@type":"Person","name":"Chris Miller","sameAs":"/actor/chris-miller-1/"},{"@type":"Person","name":"Cody Cameron","sameAs":"/actor/cody-cameron/"},{"@type":"Person","name":"Kathleen Freeman","sameAs":"/actor/kathleen-freeman/"},{"@type":"Person","name":"Michael Galasso","sameAs":"/actor/michael-galasso/"},{"@type":"Person","name":"Christopher Knights","sameAs":"/actor/christopher-knights/"},{"@type":"Person","name":"Simon J. Smith","sameAs":"/actor/simon-j-smith/"},{"@type":"Person","name":"Conrad Vernon","sameAs":"/actor/conrad-vernon/"},{"@type":"Person","name":"Jacquie Barnbrook","sameAs":"/actor/jacquie-barnbrook/"},{"@type":"Person","name":"Guillaume Aretos","sameAs":"/actor/guillaume-aretos/"},{"@type":"Person","name":"John Bisom","sameAs":"/actor/john-bisom/"},{"@type":"Person","name":"Matthew Gonder","sameAs":"/actor/matthew-gonder/"},{"@type":"Person","name":"Calvin Remsberg","sameAs":"/actor/calvin-remsberg/"},{"@type":"Person","name":"Jean-Paul Vignon","sameAs":"/actor/jean-paul-vignon/"},{"@type":"Person","name":"Val Bettin","sameAs":"/actor/val-bettin/"},{"@type":"Person","name":"Andrew Adamson","sameAs":"/actor/andrew-adamson/"},{"@type":"Person","name":"Gary A. Hecker","sameAs":"/actor/gary-a-hecker/"}],"dateCreated":"2011-06-22","name":"Shrek","genre":["Adventure","Fantasy","Family","Animation","Comedy"],"@id":"https://letterboxd.com/film/shrek/","countryOfOrigin":[{"@type":"Country","name":"USA"}],"aggregateRating":{"bestRating":5,"reviewCount":74867,"@type":"aggregateRating","ratingValue":4.06,"description":"The Letterboxd rating is a weighted average score for a movie based on all ratings cast to date by our members.","ratingCount":1152813,"worstRating":0}}
+{"image":"https://a.ltrbxd.com/resized/film-poster/5/1/3/4/4/51344-shrek-0-230-0-345-crop.jpg?v=cd09df2c75","@type":"Movie","director":[{"@type":"Person","name":"Andrew Adamson","sameAs":"/director/andrew-adamson/"},{"@type":"Person","name":"Vicky Jenson","sameAs":"/director/vicky-jenson/"}],"dateModified":"2024-03-25","productionCompany":[{"@type":"Organization","name":"DreamWorks Pictures","sameAs":"/studio/dreamworks-pictures/"},{"@type":"Organization","name":"Pacific Data Images","sameAs":"/studio/pacific-data-images/"},{"@type":"Organization","name":"DreamWorks Animation","sameAs":"/studio/dreamworks-animation/"}],"releasedEvent":[{"@type":"PublicationEvent","startDate":"2001"}],"@context":"http://schema.org","url":"https://letterboxd.com/film/shrek/","actors":[{"@type":"Person","name":"Mike Myers","sameAs":"/actor/mike-myers/"},{"@type":"Person","name":"Eddie Murphy","sameAs":"/actor/eddie-murphy/"},{"@type":"Person","name":"Cameron Diaz","sameAs":"/actor/cameron-diaz/"},{"@type":"Person","name":"John Lithgow","sameAs":"/actor/john-lithgow/"},{"@type":"Person","name":"Vincent Cassel","sameAs":"/actor/vincent-cassel/"},{"@type":"Person","name":"Peter Dennis","sameAs":"/actor/peter-dennis/"},{"@type":"Person","name":"Clive Pearse","sameAs":"/actor/clive-pearse/"},{"@type":"Person","name":"Jim Cummings","sameAs":"/actor/jim-cummings/"},{"@type":"Person","name":"Bobby Block","sameAs":"/actor/bobby-block/"},{"@type":"Person","name":"Chris Miller","sameAs":"/actor/chris-miller-1/"},{"@type":"Person","name":"Cody Cameron","sameAs":"/actor/cody-cameron/"},{"@type":"Person","name":"Kathleen Freeman","sameAs":"/actor/kathleen-freeman/"},{"@type":"Person","name":"Michael Galasso","sameAs":"/actor/michael-galasso/"},{"@type":"Person","name":"Christopher Knights","sameAs":"/actor/christopher-knights/"},{"@type":"Person","name":"Simon J. Smith","sameAs":"/actor/simon-j-smith/"},{"@type":"Person","name":"Conrad Vernon","sameAs":"/actor/conrad-vernon/"},{"@type":"Person","name":"Jacquie Barnbrook","sameAs":"/actor/jacquie-barnbrook/"},{"@type":"Person","name":"Guillaume Aretos","sameAs":"/actor/guillaume-aretos/"},{"@type":"Person","name":"John Bisom","sameAs":"/actor/john-bisom/"},{"@type":"Person","name":"Matthew Gonder","sameAs":"/actor/matthew-gonder/"},{"@type":"Person","name":"Calvin Remsberg","sameAs":"/actor/calvin-remsberg/"},{"@type":"Person","name":"Jean-Paul Vignon","sameAs":"/actor/jean-paul-vignon/"},{"@type":"Person","name":"Val Bettin","sameAs":"/actor/val-bettin/"},{"@type":"Person","name":"Andrew Adamson","sameAs":"/actor/andrew-adamson/"},{"@type":"Person","name":"Gary A. Hecker","sameAs":"/actor/gary-a-hecker/"}],"dateCreated":"2011-06-22","name":"Shrek","genre":["Adventure","Fantasy","Family","Animation","Comedy"],"@id":"https://letterboxd.com/film/shrek/","countryOfOrigin":[{"@type":"Country","name":"USA"}],"aggregateRating":{"bestRating":5,"reviewCount":75709,"@type":"aggregateRating","ratingValue":4.06,"description":"The Letterboxd rating is a weighted average score for a movie based on all ratings cast to date by our members.","ratingCount":1164551,"worstRating":0}}
 /* ]]> */
 </script>
 
@@ -5488,12 +5470,12 @@ var mainMenu = [];
                 <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div id="poster-picker-91fc326e-9ea7-4fbe-8918-203b73ea2640" data-poster-picker-options='{"id": "91fc326e-9ea7-4fbe-8918-203b73ea2640"}' data-js-target="poster-picker"></div>
+                <div id="poster-picker-65030f16-21c1-43c4-92ee-65fc28c0fd02" data-poster-picker-options='{"id": "65030f16-21c1-43c4-92ee-65fc28c0fd02"}' data-js-target="poster-picker"></div>
             </div>
             <div class="modal-footer">
                 <div class="poster-picker-note"></div>
 
-                <div class="poster-picker-controls" data-poster-picker-controls-for="91fc326e-9ea7-4fbe-8918-203b73ea2640"> <div class="modal-action-group -center"> <button class="button -destructive" type="button" data-js-trigger="reset" disabled> <span class="label" data-js-label-for="film" >Reset <span class="js-image-type">poster</span></span> <span class="label" data-js-label-for="object" hidden>Reset for <span class="js-object-name">item</span></span> </button> <button class="button -action" type="submit" data-js-trigger="submit" disabled> <span class="label" data-js-label-for="film" >Save<span class="mob-hide"> changes</span></span> <span class="label" data-js-label-for="object" hidden>Save<span class="mob-hide"> for <span class="js-object-name">item</span></span></span> </button> </div> <div class="objectonly js-objectonly" aria-hidden="true" hidden> <label for="frm-object-only" class="option-label -checkbox -medium -reversed"> <input type="checkbox" value="true" class="checkbox" id="frm-object-only" data-js-trigger="object-only" disabled /><i class="substitute"></i>This <span class="js-object-name">item</span> only </label> </div> </div>
+                <div class="poster-picker-controls" data-poster-picker-controls-for="65030f16-21c1-43c4-92ee-65fc28c0fd02"> <div class="modal-action-group -center"> <button class="button -destructive" type="button" data-js-trigger="reset" disabled> <span class="label" data-js-label-for="film" >Reset <span class="js-image-type">poster</span></span> <span class="label" data-js-label-for="object" hidden>Reset for <span class="js-object-name">item</span></span> </button> <button class="button -action" type="submit" data-js-trigger="submit" disabled> <span class="label" data-js-label-for="film" >Save<span class="mob-hide"> changes</span></span> <span class="label" data-js-label-for="object" hidden>Save<span class="mob-hide"> for <span class="js-object-name">item</span></span></span> </button> </div> <div class="objectonly js-objectonly" aria-hidden="true" hidden> <label for="frm-object-only" class="option-label -checkbox -medium -reversed"> <input type="checkbox" value="true" class="checkbox" id="frm-object-only" data-js-trigger="object-only" disabled /><i class="substitute"></i>This <span class="js-object-name">item</span> only </label> </div> </div>
             </div>
         </div>
     </div>
