@@ -80,7 +80,7 @@ def format_movie_runtime(movie_runtime_in_mins):
         return f'{movie_runtime_in_mins}m'
 
 def get_varData_script(doc):
-    return doc.find_all("script")[3].string
+    return doc.find_all("script")[4].string
 
 def get_runtime(varData_script_string):
     find_movie_runtime = re.search(r'runTime: (.*?) };', varData_script_string)
