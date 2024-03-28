@@ -12,9 +12,12 @@ def get_movie_description(doc):
 
 def get_search_term_urls(search_term):
     url = "https://letterboxd.com/search/films/" + search_term + "/"
-    result = requests.get(url)
-    search_html_doc = BeautifulSoup(result.text, "html.parser")
-    search_results = search_html_doc.find(class_="results")
+    try:
+        result = requests.get(url)
+        search_html_doc = BeautifulSoup(result.text, "html.parser")
+        search_results = search_html_doc.find(class_="results")
+    except discord.error.NotFound as e:
+        return f"Couldn't reach {url}, Letterboxd may be down."
 
     if search_results is None:
         return None
