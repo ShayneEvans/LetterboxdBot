@@ -129,9 +129,14 @@ def run_discord_bot():
         pagination_view = PaginationView()
         ctx = await bot.get_context(interaction)
 
-        if search_term_links is not None:
+        #If list then there are valid links that have been found
+        if isinstance(search_term_links, list):
             pagination_view.data = search_term_links
+            pagination_view.timeout = 60
             await pagination_view.send(ctx)
-        else:
+        elif search_term_links is None:
             await interaction.response.send_message('NO RESULTS. There were no matches for your search term. Make sure you are entering a valid movie title.')
+        else:
+            await interaction.response.send_message(search_term_links)
+
     bot.run(TOKEN)
