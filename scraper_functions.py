@@ -11,13 +11,11 @@ def get_movie_description(doc):
         return "N/A"
 
 def get_search_term_urls(search_term):
-    url = "https://letterboxd.com/search/films/" + search_term + "/"
-    try:
-        result = requests.get(url)
-        search_html_doc = BeautifulSoup(result.text, "html.parser")
-        search_results = search_html_doc.find(class_="results")
-    except discord.error.NotFound as e:
-        return f"Couldn't reach {url}, Letterboxd may be down."
+    url = "https://letterboxd.com/s/search/" + search_term + "/?"
+    result = requests.get(url)
+    search_html_doc = BeautifulSoup(result.text, "html.parser")
+    search_results = search_html_doc.find(class_="results")
+
 
     if search_results is None:
         return None
@@ -27,10 +25,12 @@ def get_search_term_urls(search_term):
     #Obtaining all movies that appear on first page of letterboxd (max 20)
     movie_link_list = []
     for movie in movie_list:
-        find_movie_page_url = re.search(r'data-film-slug="(.*)\" data-hide-tooltip=\"true\"', str(movie))
-        movie_page_url = find_movie_page_url.group(1)
-        movie_link_list.append("https://letterboxd.com/film/" + movie_page_url)
-
+        #Find the div with the data-film-slug attribute
+        movie_div = movie.find('div', {'data-film-slug': True})
+        if movie_div:
+            movie_page_url = movie_div['data-film-slug']
+            movie_link_list.append(f"https://letterboxd.com/film/{movie_page_url}")
+            
     return movie_link_list
 
 def get_cdata(doc):
