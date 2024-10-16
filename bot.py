@@ -12,10 +12,15 @@ def create_search_term(movie_title):
     search_term = search_term.replace("/", "-")
 
     return search_term
-    
+
 class PaginationView(discord.ui.View):
     current_page : int = 0
     movie_embeds = {}
+
+    def __init__(self, original_user, data):
+        super().__init__(timeout=60)
+        self.original_user = original_user
+        self.data = data
 
     async def on_timeout(self):
         self.clear_items()
@@ -74,37 +79,48 @@ class PaginationView(discord.ui.View):
             self.last_page_button.style = discord.ButtonStyle.green
             self.next_button.style = discord.ButtonStyle.primary
 
+    #Checks if interaction belongs to user, if not they cannot use arrow buttons
+    async def interaction_check(self, interaction: discord.Interaction) -> bool:
+        if interaction.user.id != self.original_user.id:
+            await interaction.response.send_message("Only user who used /search_movie can use these.", ephemeral=True)
+            return False
+        return True
+
     @discord.ui.button(label = "|<", style=discord.ButtonStyle.primary)
     async def first_page_button(self, interaction:discord.Interaction, button: discord.ui.Button):
-        await interaction.response.defer()
-        self.current_page = 0
-        await self.update_message(self.data)
+        if await self.interaction_check(interaction):
+            await interaction.response.defer()
+            self.current_page = 0
+            await self.update_message(self.data)
 
     @discord.ui.button(label = "Prev", style=discord.ButtonStyle.primary)
     async def prev_button(self, interaction:discord.Interaction, button: discord.ui.Button):
-        await interaction.response.defer()
-        if self.current_page != 0:
-            self.current_page -= 1
-        await self.update_message(self.data)
+        if await self.interaction_check(interaction):
+            await interaction.response.defer()
+            if self.current_page != 0:
+                self.current_page -= 1
+            await self.update_message(self.data)
 
     @discord.ui.button(label="Next", style=discord.ButtonStyle.primary)
     async def next_button(self, interaction:discord.Interaction, button: discord.ui.Button):
-        await interaction.response.defer()
-        if self.current_page != len(self.data)-1:
-            self.current_page += 1
-            if self.current_page not in self.movie_embeds:
-                new_embed = self.get_movie_embed(self.data, self.current_page)
-                self.movie_embeds[self.current_page] = new_embed
-        await self.update_message(self.data)
+        if await self.interaction_check(interaction):
+            await interaction.response.defer()
+            if self.current_page != len(self.data)-1:
+                self.current_page += 1
+                if self.current_page not in self.movie_embeds:
+                    new_embed = self.get_movie_embed(self.data, self.current_page)
+                    self.movie_embeds[self.current_page] = new_embed
+            await self.update_message(self.data)
 
     @discord.ui.button(label = ">|", style=discord.ButtonStyle.primary)
     async def last_page_button(self, interaction:discord.Interaction, button: discord.ui.Button):
-        await interaction.response.defer()
-        self.current_page = int(len(self.data) - 1)
-        if self.current_page not in self.movie_embeds:
-            new_embed = self.get_movie_embed(self.data, self.current_page)
-            self.movie_embeds[self.current_page] = new_embed
-        await self.update_message(self.data)
+        if await self.interaction_check(interaction):
+            await interaction.response.defer()
+            self.current_page = int(len(self.data) - 1)
+            if self.current_page not in self.movie_embeds:
+                new_embed = self.get_movie_embed(self.data, self.current_page)
+                self.movie_embeds[self.current_page] = new_embed
+            await self.update_message(self.data)
 
 def run_discord_bot():
     TOKEN = str(os.environ.get('LetterboxdBot_TOKEN'))
@@ -126,17 +142,15 @@ def run_discord_bot():
     async def search_movie(interaction: discord.Interaction, movie_title: str):
         search_term = create_search_term(movie_title)
         search_term_links = scraper_functions.get_search_term_urls(search_term)
-        pagination_view = PaginationView()
         ctx = await bot.get_context(interaction)
 
         #If list then there are valid links that have been found
         if isinstance(search_term_links, list):
-            pagination_view.data = search_term_links
-            pagination_view.timeout = 60
+            pagination_view = PaginationView(original_user=interaction.user, data=search_term_links)
             await pagination_view.send(ctx)
         elif search_term_links is None:
             await interaction.response.send_message('NO RESULTS. There were no matches for your search term. Make sure you are entering a valid movie title.')
         else:
             await interaction.response.send_message(search_term_links)
-
+    
     bot.run(TOKEN)
