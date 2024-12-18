@@ -11,10 +11,11 @@ def get_movie_description(doc):
         return "N/A"
 
 def get_search_term_urls(search_term):
-    url = "https://letterboxd.com/search/films/" + search_term + "/"
+    url = "https://letterboxd.com/s/search/" + search_term + "/?"
     result = requests.get(url)
     search_html_doc = BeautifulSoup(result.text, "html.parser")
     search_results = search_html_doc.find(class_="results")
+
 
     if search_results is None:
         return None
@@ -24,10 +25,12 @@ def get_search_term_urls(search_term):
     #Obtaining all movies that appear on first page of letterboxd (max 20)
     movie_link_list = []
     for movie in movie_list:
-        find_movie_page_url = re.search(r'data-film-slug="(.*)\" data-hide-tooltip=\"true\"', str(movie))
-        movie_page_url = find_movie_page_url.group(1)
-        movie_link_list.append("https://letterboxd.com/film/" + movie_page_url)
-
+        #Find the div with the data-film-slug attribute
+        movie_div = movie.find('div', {'data-film-slug': True})
+        if movie_div:
+            movie_page_url = movie_div['data-film-slug']
+            movie_link_list.append(f"https://letterboxd.com/film/{movie_page_url}")
+            
     return movie_link_list
 
 def get_cdata(doc):
@@ -82,21 +85,21 @@ def format_movie_runtime(movie_runtime_in_mins):
 def get_varData_script(doc):
     return doc.find_all("script")[4].string
 
-def get_runtime(varData_script_string):
-    find_movie_runtime = re.search(r'runTime: (.*?) };', varData_script_string)
-    if find_movie_runtime is not None:
-        movie_runtime = format_movie_runtime(int(find_movie_runtime.group(1)))
-        if movie_runtime == "0m":
-            return "N/A"
-        return movie_runtime
-    else:
-        return "N/A"
+def get_runtime(doc):
+    movie_runtime_p = doc.find("p", class_="text-link text-footer")
 
-def get_movie_title(varData_script_string):
-    find_movie_title = re.search(r' name: \"(.*?)\",', varData_script_string)
+    if movie_runtime_p:
+        runtime_text = movie_runtime_p.get_text()
+        match = re.search(r'(\d+)\s*mins', runtime_text)
+        if match:
+            return format_movie_runtime(int(match.group(1)))
+    return "N/A"
+
+def get_movie_title(cdata):
+    find_movie_title = re.search(r'"dateCreated":".*?","name":"(.*?)",.*?"genre":', cdata)
+    print(find_movie_title)
     if find_movie_title is not None:
-        #Sometime's title erroneously has a \ in it, so replace it with nothing
-        return find_movie_title.group(1).replace("\\", "")
+        return find_movie_title.group(1)
     else:
         return "N/A"
 
@@ -104,14 +107,15 @@ def scrape_website(search_term_link):
         result = requests.get(search_term_link)
         doc = BeautifulSoup(result.text, "html.parser")
         cdata = get_cdata(doc)
-        varData_script_string = get_varData_script(doc)
+        #varData has been obsoleted as of 12/18
+        #varData_script_string = get_varData_script(doc)
 
         #Getting all stuffs
         movie_poster_url = get_movie_poster_url(cdata)
-        movie_title =  get_movie_title(varData_script_string)
+        movie_title =  get_movie_title(cdata)
         movie_director = get_movie_director(cdata)
         movie_release_year = get_release_year(cdata)
-        movie_runtime = get_runtime(varData_script_string)
+        movie_runtime = get_runtime(doc)
         movie_description = get_movie_description(doc)
         rating_value = get_rating_value(cdata)
         review_count = get_review_count(cdata)
