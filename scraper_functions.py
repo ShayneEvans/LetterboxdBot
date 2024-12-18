@@ -97,9 +97,9 @@ def get_runtime(doc):
 
 def get_movie_title(cdata):
     find_movie_title = re.search(r'"dateCreated":".*?","name":"(.*?)",.*?"genre":', cdata)
-    print(find_movie_title)
     if find_movie_title is not None:
-        return find_movie_title.group(1)
+        #Sometime's title erroneously has a \ in it, so replace it with nothing
+        return find_movie_title.group(1).replace("\\", "")
     else:
         return "N/A"
 
