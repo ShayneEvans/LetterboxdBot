@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import re
+import json
 
 def get_movie_description(doc):
     div = doc.find(class_="truncate")
@@ -37,39 +38,54 @@ def get_cdata(doc):
     cdata = doc.find(text=re.compile("CDATA"))
     return str(cdata)
 
-def get_movie_poster_url(cdata):
-    find_movie_poster_url = re.search(r'{\"image\":\"(.*?)\",\"', cdata)
-    if find_movie_poster_url is not None:
-        return find_movie_poster_url.group(1)
-    else:
-        return None
-
-def get_movie_director(cdata):
-    find_movie_director = re.search(r'\"director\":\[{\"@type\":\"Person\",\"name\":\"(.*?)\",\"sameAs\"', cdata)
-    if find_movie_director is not None:
-        return find_movie_director.group(1)
-    else:
+def get_movie_poster_url(json_cdata):
+    try:
+        if "image" in json_cdata:
+            movie_poster_url = json_cdata["image"]
+            if movie_poster_url is not None:
+                return movie_poster_url
+        else:
+            return None
+    except KeyError:
         return "N/A"
 
-def get_rating_value(cdata):
-    find_ratingValue = re.search(r'\"ratingValue\":(.*?),\"description\":', cdata)
-    if find_ratingValue is not None:
-        return find_ratingValue.group(1)
+def get_movie_director(json_cdata):
+    try:
+        if "director" in json_cdata:
+            movie_director = json_cdata["director"][0]["name"]
+            if movie_director is not None:
+                return movie_director
+        else:
+            return "N/A"
+    except KeyError:
+        return "N/A"
+
+def get_rating_value(json_cdata):
+    if "aggregateRating" in json_cdata:
+        ratingValue = json_cdata["aggregateRating"]["ratingValue"]
+        if ratingValue is not None:
+            return ratingValue
     else:
         return "Not Enough Ratings to get Average Rating"
 
-def get_review_count(cdata):
-    find_ratingCount = re.search(r'members.\",\"ratingCount\":(.*?),\"worstRating\":', cdata)
-    if find_ratingCount is not None:
-        return f'{int(find_ratingCount.group(1)):,}'
-    else:
+def get_rating_count(json_cdata):
+    try:
+        if "aggregateRating" in json_cdata:
+            ratingCount = json_cdata["aggregateRating"]["ratingCount"]
+            if ratingCount is not None:
+                return f'{int(ratingCount):,}'
+        else:
+            return "N/A"
+    except KeyError:
         return "N/A"
 
-def get_release_year(cdata):
-    find_release_year = re.search(r'\"@type":\"PublicationEvent\",\"startDate\":\"(.*?)\"}', cdata)
-    if find_release_year is not None:
-        return find_release_year.group(1)
-    else:
+def get_release_year(json_cdata):
+    try:
+        if "releasedEvent" in json_cdata and len(json_cdata["releasedEvent"]) > 0:
+            return json_cdata["releasedEvent"][0].get("startDate", "N/A")
+        else:
+            return "N/A"
+    except KeyError:
         return "N/A"
 
 def format_movie_runtime(movie_runtime_in_mins):
@@ -95,29 +111,31 @@ def get_runtime(doc):
             return format_movie_runtime(int(match.group(1)))
     return "N/A"
 
-def get_movie_title(cdata):
-    find_movie_title = re.search(r'"dateCreated":".*?","name":"(.*?)",.*?"genre":', cdata)
-    print(find_movie_title)
-    if find_movie_title is not None:
-        return find_movie_title.group(1)
-    else:
+def get_movie_title(json_cdata):
+    try:
+        if "name" in json_cdata:
+            movie_title = json_cdata["name"]
+            if movie_title is not None:
+                return movie_title
+        else:
+            return "N/A"
+    except KeyError:
         return "N/A"
 
 def scrape_website(search_term_link):
         result = requests.get(search_term_link)
         doc = BeautifulSoup(result.text, "html.parser")
         cdata = get_cdata(doc)
-        #varData has been obsoleted as of 12/18
-        #varData_script_string = get_varData_script(doc)
-
+        cleaned_cdata = re.sub(r'\/\*.*?\*\/', '', cdata, flags=re.DOTALL).strip()
+        json_data = json.loads(cleaned_cdata)
         #Getting all stuffs
-        movie_poster_url = get_movie_poster_url(cdata)
-        movie_title =  get_movie_title(cdata)
-        movie_director = get_movie_director(cdata)
-        movie_release_year = get_release_year(cdata)
+        movie_poster_url = get_movie_poster_url(json_data)
+        movie_title =  get_movie_title(json_data)
+        movie_director = get_movie_director(json_data)
+        movie_release_year = get_release_year(json_data)
         movie_runtime = get_runtime(doc)
         movie_description = get_movie_description(doc)
-        rating_value = get_rating_value(cdata)
-        review_count = get_review_count(cdata)
+        rating_value = get_rating_value(json_data)
+        review_count = get_rating_count(json_data)
 
         return movie_poster_url, movie_title, movie_director, movie_release_year, movie_runtime, movie_description, rating_value, review_count

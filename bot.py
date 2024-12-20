@@ -35,7 +35,7 @@ class PaginationView(discord.ui.View):
         movie_embed.add_field(name="Director", value=movie_embed_attributes[2], inline=True)
         movie_embed.add_field(name="Runtime", value=movie_embed_attributes[4], inline=True)
         if movie_embed_attributes[7] != "N/A":
-            movie_embed.add_field(name="Rating", value=f'{movie_embed_attributes[6]} from {movie_embed_attributes[7]} reviews', inline=True)
+            movie_embed.add_field(name="Rating", value=f'{movie_embed_attributes[6]} from {movie_embed_attributes[7]} ratings', inline=True)
         else:
             movie_embed.add_field(name="Rating", value=f'{movie_embed_attributes[6]}', inline=True)
         if movie_embed_attributes[0] is None:
